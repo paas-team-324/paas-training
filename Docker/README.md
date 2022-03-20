@@ -1,4 +1,4 @@
-<h1>Docker course</h1>
+<h1>Docker</h1>
 <h4>Estimated time: 3-4 Weeks
 <br></br>
 
