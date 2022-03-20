@@ -1,4 +1,4 @@
-<h1>Linux course</h1>
+<h1>Linux</h1>
 <h4>Estimated time: 6 Weeks
 <br></br>
 
