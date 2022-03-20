@@ -1,4 +1,4 @@
-<h1>Kubernetes course</h1>
+<h1>Kubernetes</h1>
 <h4>Estimated time: 2 months
 <br></br>
 
