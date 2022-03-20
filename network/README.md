@@ -1,4 +1,6 @@
 <h1>Network course</h1>
+<h4>Estimated time: 3-4 Weeks
+<br></br>
 
 Author: Tomer Krausz Mallik
 
@@ -168,3 +170,14 @@ Author: Tomer Krausz Mallik
 <li> <a href="https://medium.com/@NTTICT/vxlan-explained-930cc825a51"> VXLAN explained </a>
 <li> <a href="https://www.youtube.com/watch?v=YNqKDI_bnPM&list=PLDQaRcbiSnqFe6pyaSy-Hwj8XRFPgZ5h8"> VXLAN youtube series </a>  
 <br></br>
+
+<h3>צבי הנינג'ה:</h3>
+<li> לדעת שמות ושיר פתיחה
+<br></br>
+
+<h3>Drills:</h3>
+<li> Lab
+<li> Estimated time: Day
+<br></br>
+<li> Test
+<li> Estimated time: Day
