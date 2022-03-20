@@ -1,4 +1,4 @@
-<h1>Virtualization course</h1>
+<h1>Virtualization</h1>
 <h4>Estimated time: 1 Day
 <br></br>
 
