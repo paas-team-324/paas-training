@@ -224,6 +224,7 @@ Author: Tomer Krausz Mallik
 <br></br>
 <b>Reading materials:</b>
 <li> <a href="https://www.simplilearn.com/tutorials/ansible-tutorial/what-is-ansible?source=sl_frs_nav_playlist_video_clicked"> Ansible </a> 
+<li> <a href="https://www.learnlinux.tv/getting-started-with-ansible/"> Getting started with Ansible</a>
 <li> <a href="https://www.seobility.net/en/wiki/CronJob"> Cron </a> 
 <br></br>
 
