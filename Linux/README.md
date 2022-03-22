@@ -66,6 +66,9 @@ Author: Tomer Krausz Mallik
 <li> top
 <li> ps
 <br></br>
+<b>Reading materials:</b>
+<li> <a href="http://www.vimgenius.com/start"> Vim </a> 
+<br></br>
 
 <h3>Procees Management:</h3>
 <b>Deliveries:</b>
