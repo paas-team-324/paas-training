@@ -131,6 +131,8 @@ Author: Tomer Krausz Mallik
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://medium.com/jorgeacetozi/kubernetes-master-components-etcd-api-server-controller-manager-and-scheduler-3a0179fc8186"> Pod creation flow </a>
+<li><a href="https://kube.academy/courses/the-kubernetes-machine"> Kubernetes design </a>
+<li><a href="https://www.youtube.com/watch?v=8C_SCDbUJTg"> Kubernetes Architecture Simplified </a>
 <br></br>
 
 <h3>Other:</h3>
