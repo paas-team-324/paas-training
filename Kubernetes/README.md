@@ -27,6 +27,8 @@ Author: Tomer Krausz Mallik
 <li> secret
 <br></br>
 <b>Reading materials:</b>
+<li> <a href="https://www.youtube.com/watch?v=T4Z7visMM4E"> Service </a>
+<li> <a href="https://www.youtube.com/watch?v=GhZi4DxaxxE"> Ingress </a>
 <li><a href="https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0"> Kubernetes NodePort vs LoadBalancer vs Ingress</a>
 <li><a href="https://cloud.google.com/kubernetes-engine/docs/concepts/configmap"> configmap</a>
 <li><a href="https://cloud.google.com/kubernetes-engine/docs/concepts/secret"> secret </a>
@@ -39,7 +41,10 @@ Author: Tomer Krausz Mallik
 <li> quota
 <li> limitrange
 <br></br>
-
+<b>Reading materials:</b>
+<li><a href="https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-resource-requests-and-limits">Resource requests and limits </a>
+<br></br>
+ 
 <h3>Advanced Kubernetes: </h3>
 <b>Deliveries:</b>
 <li> Deployment startegy
@@ -114,7 +119,6 @@ Author: Tomer Krausz Mallik
 <li> tolerations
 <br></br>
   
-  
 <h3>Infrastructure: </h3>
 <b>Deliveries:</b>
 <li> etcd
@@ -132,8 +136,9 @@ Author: Tomer Krausz Mallik
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://medium.com/jorgeacetozi/kubernetes-master-components-etcd-api-server-controller-manager-and-scheduler-3a0179fc8186"> Pod creation flow </a>
-<li><a href="https://kube.academy/courses/the-kubernetes-machine"> Kubernetes design </a>
 <li><a href="https://www.youtube.com/watch?v=8C_SCDbUJTg"> Kubernetes Architecture Simplified </a>
+<li><a href="https://kube.academy/courses/the-kubernetes-machine"> Kubernetes design </a>
+<li><a href="https://betterprogramming.pub/k8s-a-closer-look-at-kube-proxy-372c4e8b090"> Kube Proxy example </a>
 <br></br>
 
 <h3>Other:</h3>
