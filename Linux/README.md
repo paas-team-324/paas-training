@@ -13,7 +13,7 @@ Author: Tomer Krausz Mallik
 <b>Reading materials:</b>
 <li> <a href="https://linuxjourney.com/"> Linux journey (recommended) </a> 
 <li> <a href="https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/"> Linux courses (Sections 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 17) </a> 
-
+<br></br>
 
 <h3>Operation System:</h3>
 <b>Deliveries:</b>
