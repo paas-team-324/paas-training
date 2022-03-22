@@ -90,13 +90,13 @@ Author: Tomer Krausz Mallik
 <br></br>
 <h3>OpenShift objects: </h3>
 <b>Deliveries:</b>
-<li> deployementconfig
-<li> replication controller
-<li> route
-<li> router
-<li> template
-<li> templateinstance
-<li> service catalog
+<li> DeploymentConfig
+<li> Replication Controller
+<li> Route
+<li> Router
+<li> Template
+<li> TemplateInstance
+<li> Service Catalog
 <li> default OpenShift service account
 <br></br>
 <b>Reading materials:</b>
