@@ -30,6 +30,7 @@ Author: Tomer Krausz Mallik
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://blogs.cisco.com/developer/container-image-layers-1?ccid=&dtid=devblog&oid=crippa-containerimage3-ww"> Container image</a>
+<li><a href="https://docs.docker.com/storage/storagedriver/#images-and-layers">Image Layers </a>
 <br></br>
 
 <h3>Registry: </h3>
@@ -37,8 +38,9 @@ Author: Tomer Krausz Mallik
 <li> registry
 <li> DockerHub
 <li> Harbor
-<li> pull
-<li> push
+<li> docker pull
+<li> docker push
+<li> docker tag
 <br></br>
  
 <h3>Commands:</h3>
@@ -64,6 +66,7 @@ Author: Tomer Krausz Mallik
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://www.grant.pizza/blog/understanding-cgroups/"> cgroups </a>
+<li><a href="https://scoutapm.com/blog/restricting-process-cpu-usage-using-nice-cpulimit-and-cgroups"> restricting process cpu </a>
 <br></br>
   
   
