@@ -6,6 +6,7 @@ Author: Tomer Krausz Mallik
 <br></br>
 
 <a href="https://kubernetes.io/docs/home/"><h3>Kubernetes Documentation</h3></a>
+
 <a href="https://docs.openshift.com/"><h3>OpenShift Documentation</h3></a>
 
 
