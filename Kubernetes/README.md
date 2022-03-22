@@ -70,7 +70,7 @@ Author: Tomer Krausz Mallik
 <b>Reading materials:</b>
 <li><a href="https://docs.openshift.com/container-platform/4.1/authentication/using-rbac.html"> RBAC</a>
 <li><a href="https://octopus.com/blog/k8s-rbac-roles-and-bindings"> roles and bindings </a>
-<li><a href="https://docs.openshift.com/container-platform/4.7/authentication/identity_providers/configuring-oidc-identity-provider.html"> Authorization</a>
+<li><a href="https://docs.openshift.com/container-platform/4.7/authentication/identity_providers/configuring-oidc-identity-provider.html"> Authentication</a>
 <br></br>
 
 <h3>Other Kubernetes objects:</h3>
