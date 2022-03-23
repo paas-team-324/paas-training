@@ -74,9 +74,8 @@ Author: Tomer Krausz Mallik
 <br></br>
 
 <h2>Procees Management:</h2>
-<b>Deliveries:</b>
-in depth
-<li> Process - in depth
+<h3>in depth</h3>
+<li> Process
 <li> Process states
 <li> Zombie process
 <li> signals
@@ -89,7 +88,7 @@ in depth
 <li> Service 
 <li> Systemctl
   
-surface level  
+<h3>surface level</h3>  
 <li> Process permissions
 <li> Process priorities
 <li> OOM Killer
@@ -104,15 +103,14 @@ surface level
 <li> <a href="https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/"> how to create a service </a> 
 <br></br>
 
-<h3>File System and Storage Management System:</h3>
-<b>Deliveries:</b>
-in depth 
+<h2>File System and Storage Management System:</h2>
+<h3>in depth</h3> 
 <li> /proc - hands on
 <li> binary permissions
 
-surface level
+<h3>surface level</h3>
+<li> chown - hands on
 
-<li> chown
 <li> file owner group
 <li> tmpfs
 <li> NAS
