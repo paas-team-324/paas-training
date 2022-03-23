@@ -12,12 +12,6 @@ Author: Tomer Krausz Mallik
 <li><a href="https://drive.google.com/file/d/161hbB-LOyXXn00LotaFuhd0jXafQnyUI/view"> The Docker Book</a>
 <br></br>
 
-<h3>Architecture: </h3>
-<b>Deliveries:</b>
-<li> dockerd service
-<li> docker socket
-<br></br> 
- 
 <h3>Basic Docker: </h3>
 <b>Deliveries:</b>
 <li> image
@@ -27,6 +21,8 @@ Author: Tomer Krausz Mallik
 <li> build
 <li> build context
 <li> docker compose
+<li> dockerd service
+<li> docker socket 
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://blogs.cisco.com/developer/container-image-layers-1?ccid=&dtid=devblog&oid=crippa-containerimage3-ww"> Container image</a>
