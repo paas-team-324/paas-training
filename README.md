@@ -9,4 +9,5 @@ The training topics, in the order which they should be studied
 <li> Virtualization
 <li> Docker
 <li> Kubernetes
-
+<br></br>
+Estimated time: 5-6 months
