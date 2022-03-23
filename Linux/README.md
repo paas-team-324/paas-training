@@ -15,12 +15,12 @@ Author: Tomer Krausz Mallik
 <li> <a href="https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/"> Linux courses (Sections 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 17) </a> 
 <br></br>
 
-<h3>Operation System:</h3>
-<b>Deliveries:</b>
+<h2>Operating System:</h2>
+<h3>in depth:</h3>
 <li> Kernel
 <li> Kernel space
 <li> User space
-<li> Virtual memory
+<li> Virtual memory 
 <li> Pagefile
 <li> Swap
 <li> Init
@@ -34,15 +34,18 @@ Author: Tomer Krausz Mallik
 <li> pipeline
 <li> i/o redirection
 <li> Environment variables
+<li> boot the system
+  
+<h3>surface level:</h3>
 <li> Cpu dispacher
 <li> Non preemptive scheduling
 <li> preemptive scheduling
 <li> Schedualing algorithms (FCFS, SJF)
 <li> Context switching
-<li> /etc/sudoers
-<li> /etc/passwd
-<li> /etc/shadow
-<li> boot the system 
+<li> /etc/sudoers - hands on
+<li> /etc/passwd - hands on
+<li> /etc/shadow - hands on
+
 <br></br>
 <b>Reading materials:</b>
 <li> <a href="https://www.ionos.com/digitalguide/server/know-how/what-are-system-calls/"> System calls </a> 
@@ -53,7 +56,7 @@ Author: Tomer Krausz Mallik
 <li> <a href="https://www.guru99.com/cpu-scheduling-algorithms.html"> CPU scheduling algorithms</a> 
 <br></br>
   
-<h3>Commands:</h3>
+<h2>Commands:</h2>
 <b>Deliveries:</b>
 <li> sed
 <li> awk
@@ -70,25 +73,28 @@ Author: Tomer Krausz Mallik
 <li> <a href="http://www.vimgenius.com/start"> Vim </a> 
 <br></br>
 
-<h3>Procees Management:</h3>
+<h2>Procees Management:</h2>
 <b>Deliveries:</b>
-<li> Process
+in depth
+<li> Process - in depth
 <li> Process states
 <li> Zombie process
 <li> signals
 <li> threads
-<li> Process permissions
-<li> Process priorities
 <li> Fork & exec
 <li> Copy on write
 <li> Shared memory
 <li> Inter process communications
-<li> OOM Killer
-<li> systemd
-<li> Service
-<li> Service creation
-<li> daemon
+<li> systemd 
+<li> Service 
 <li> Systemctl
+  
+surface level  
+<li> Process permissions
+<li> Process priorities
+<li> OOM Killer
+<li> Service creation - hands on
+<li> daemon
 <br></br>
 <b>Reading materials:</b>
 <li> <a href="https://www.tutorialspoint.com/operating_system/os_processes.htm"> Process </a> 
@@ -100,15 +106,19 @@ Author: Tomer Krausz Mallik
 
 <h3>File System and Storage Management System:</h3>
 <b>Deliveries:</b>
-<li> /proc
+in depth 
+<li> /proc - hands on
 <li> binary permissions
+
+surface level
+
 <li> chown
 <li> file owner group
 <li> tmpfs
 <li> NAS
-<li> NFS
+<li> NFS - in depth
 <li> SAN
-<li> inode
+<li> inode - in depth
 <li> inode table
 <li> inode structure
 <li> metadata
@@ -116,10 +126,7 @@ Author: Tomer Krausz Mallik
 <li> hard link
 <li> journaling
 <li> MBR
-<li> XFS
-<li> NTFS
-<li> EXT
-<li> FAT
+<li> file systems - allocation schemes (XFS, NTFS, EXT, FAT)
 <li> VFS
 <li> LVM
 <li> Raid
