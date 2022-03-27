@@ -148,9 +148,9 @@ Author: Tomer Krausz Mallik
 <li> <a href="https://phoenixnap.com/kb/linux-create-partition"> create partitions </a> 
 <br></br>
 
-<h3>Networking in Linux:</h3>
+<h2>Networking in Linux:</h2>
 <b>Deliveries:</b>
-in depth
+<h3>in depth</h3>
 <li> NetworkManager
 <li> NetworkManager CLI -hands on
 <li> /etc/sysconfig/network-scripts/
@@ -159,9 +159,7 @@ in depth
 <li> /etc/resolv.conf
 <li> /etc/hosts
 
-
-surface level
-
+<h3>surface level</h3>
 <li> /etc/sysconfig/network
 <li> <strong> iptables </strong>
 <ul>
@@ -195,9 +193,9 @@ surface level
 <li> <a href="http://linuxservertutorials.blogspot.com/2008/11/ubuntu-nsswitchconf-guide.html"> /etc/nsswitch.conf </a>
 <br></br>
 
-<h3>Permissions Management:</h3>
+<h2>Permissions Management:</h2>
 <b>Deliveries:</b>
-in depth
+<h3>in depth</h3>
 <li> Linux Permissions
 <li> SELINUX
 <li> MAC
@@ -212,9 +210,9 @@ in depth
 <li> <a href="https://auth0.com/docs/manage-users/access-control/rbac"> RBAC </a> 
 <br></br>
 
-<h3>Secured Networking:</h3>
+<h2>Secured Networking:</h2>
 <b>Deliveries:</b>
-in depth
+<h3>in depth</h3>
 <li> SSH Keys
 <li> Certificates
 <li> OPENSSL - hands on
@@ -225,15 +223,15 @@ in depth
 <li> <a href="https://jumpcloud.com/blog/what-are-ssh-keys#:~:text=Essentially%2C%20SSH%20keys%20are%20an,to%20manage%20the%20remote%20system."> SSH Keys </a> 
 <br></br>
 
-<h3>Permissions Management:</h3>
+<h2>Permissions Management:</h2>
 <b>Deliveries:</b>
-in depth
+<h3>in depth</h3>
 <li> RPM
 <li> YUM
 <li> /etc/yum.repos.d/
 <li> Pxe boot
 
-surface level
+<h3>surface level</h3>
 <li> Cron
 <li> Ansible - hands on
 <li> RPC
