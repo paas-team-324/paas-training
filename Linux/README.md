@@ -107,30 +107,29 @@ Author: Tomer Krausz Mallik
 <h3>in depth</h3> 
 <li> /proc - hands on
 <li> binary permissions
-
-<h3>surface level</h3>
-<li> chown - hands on
-
-<li> file owner group
-<li> tmpfs
-<li> NAS
-<li> NFS - in depth
-<li> SAN
-<li> inode - in depth
+<li> inode
 <li> inode table
 <li> inode structure
 <li> metadata
 <li> soft link
 <li> hard link
+<li> LVM - hands on
+<li> Raid
+
+<h3>surface level</h3>
+<li> chown - hands on
+<li> file owner group
+<li> tmpfs
+<li> NAS
+<li> NFS - hands on
+<li> SAN
 <li> journaling
 <li> MBR
 <li> file systems - allocation schemes (XFS, NTFS, EXT, FAT)
 <li> VFS
-<li> LVM
-<li> Raid
-<li> Partition
-<li> mount
-<li> /etc/fstab
+<li> Partition - hands on
+<li> mount - hands on
+<li> /etc/fstab - hands on
 <br></br>
 <b>Reading materials:</b>
 <li> <a href="https://www.thegeekdiary.com/understanding-the-proc-file-system/"> /proc </a> 
@@ -151,10 +150,19 @@ Author: Tomer Krausz Mallik
 
 <h3>Networking in Linux:</h3>
 <b>Deliveries:</b>
+in depth
 <li> NetworkManager
-<li> NetworkManager CLI
-<li> /etc/sysconfig/network
+<li> NetworkManager CLI -hands on
 <li> /etc/sysconfig/network-scripts/
+<li> tcpdump -hands on
+<li> netstat -hands on
+<li> /etc/resolv.conf
+<li> /etc/hosts
+
+
+surface level
+
+<li> /etc/sysconfig/network
 <li> <strong> iptables </strong>
 <ul>
   <li> chains 
@@ -164,14 +172,10 @@ Author: Tomer Krausz Mallik
   <li> targets
 </ul>
 <li> IPVS
-<li> tcpdump
-<li> netstat
-<li> ss
-<li> Route tables
+<li> ss - hands on
+<li> Route tables - hands on
 <li> sockets
 <li> unix sockets
-<li> /etc/resolv.conf
-<li> /etc/hosts
 <li> /etc/nsswitch.conf
 <li> NTP
 <li> Chronyd
@@ -193,6 +197,7 @@ Author: Tomer Krausz Mallik
 
 <h3>Permissions Management:</h3>
 <b>Deliveries:</b>
+in depth
 <li> Linux Permissions
 <li> SELINUX
 <li> MAC
@@ -209,9 +214,10 @@ Author: Tomer Krausz Mallik
 
 <h3>Secured Networking:</h3>
 <b>Deliveries:</b>
+in depth
 <li> SSH Keys
 <li> Certificates
-<li> OPENSSL
+<li> OPENSSL - hands on
 <li> CSR
 <li> CA
 <br></br>
@@ -221,12 +227,15 @@ Author: Tomer Krausz Mallik
 
 <h3>Permissions Management:</h3>
 <b>Deliveries:</b>
+in depth
 <li> RPM
 <li> YUM
 <li> /etc/yum.repos.d/
-<li> Cron
-<li> Ansible
 <li> Pxe boot
+
+surface level
+<li> Cron
+<li> Ansible - hands on
 <li> RPC
 <li> udev
 <br></br>
