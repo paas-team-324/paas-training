@@ -9,11 +9,12 @@ Author: Tomer Krausz Mallik
 <li> Basic knowledge of the OSI model and its layers
 <br></br>
 <b>Reading materials:</b>
-<li> <a href="https://www.howtonetwork.org/design/ccda/chapter-1-network-fundamentals/network-fundamentals-the-osi-model/"> The OSI Model </a> 
+<li> <a href="https://www.howtonetwork.org/design/ccda/chapter-1-network-fundamentals/network-fundamentals-the-osi-model/"> The OSI Model </a>
 <br></br>
-  
-<h3>Physical layer:</h3>
+
+<h2>Physical layer:</h2>
 <b>Deliveries:</b>
+<h3>surface level</h3>
 <li> Latency
 <li> Bandwidth
 <li> Encapsulation
@@ -26,20 +27,23 @@ Author: Tomer Krausz Mallik
 <li> <a href="https://www.includehelp.com/computer-networks/functions-of-physical-layer-in-the-osi-model.aspx"> Functions of physical layer </a>
 <br></br>
   
-<h3>Data Link Layer - MAC:</h3>
+<h2>Data Link Layer - MAC:</h2>
 <b>Deliveries:</b>
+<h3>in depth</h3>
 <li> Ethernet frame
 <li> Switch
 <li> Hub
-<li> Bridge
 <li> MAC address
 <li> MAC & LLC sublayers
 <li> MAC address table
+<li> Collision domain
+<li> Broadcast domain
+
+<h3>surface level</h3>
+<li> Bridge
 <li> STP
 <li> Switch stacking
 <li> MAC flap
-<li> Collision domain
-<li> Broadcast domain
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://www.youtube.com/watch?v=pi7mMjiixiY"> Layer 2 Overview</a>
@@ -50,20 +54,23 @@ Author: Tomer Krausz Mallik
 <li><a href="https://www.youtube.com/watch?v=ck3gx9HB9-k&list=PLSNNzog5eydtmcbcbc1b8pVRkgre3vNUy"> Broadcast/Collision domain </a> 
 <br></br>
 
-<h3>Data Link Layer - VLAN: </h3>
+<h2>Data Link Layer - VLAN: </h2>
 <b>Deliveries:</b>
+<h3>in depth</h3>
 <li> VLAN 
 <li> Native VLAN
 <li> Trunk port
 <li> Access port
+
 <br></br>
 <b>Reading materials:</b>
 <li> <a href="https://www.practicalnetworking.net/stand-alone/vlans/"> VLAN </a>
 <li> <a href="https://www.youtube.com/watch?v=vE5gvbmR8jg"> Tagging and Trunking </a>
 <br></br>
 
-<h3>Data Link Layer - Bonding: </h3>
+<h2>Data Link Layer - Bonding: </h2>
 <b>Deliveries:</b>
+<h3>surface level</h3>
 <li> NIC 
 <li> NIC teaming
 <li> LACP
@@ -74,8 +81,9 @@ Author: Tomer Krausz Mallik
 <li> <a href="https://www.youtube.com/watch?v=EnqygxhgSoI"> LACP </a>  
 <br></br>
  
-<h3>Network Layer - Routing:</h3>
+<h2>Network Layer - Routing:</h2>
 <b>Deliveries:</b>
+<h3>in depth</h3>
 <li> Router
 <li> Routing table
 <li> Subnet mask
@@ -85,10 +93,12 @@ Author: Tomer Krausz Mallik
 <li> Firewall
 <li> ACL
 <li> ARP
+<li> VRRP
+
+<h3>surface level</h3>
 <li> ICMP
 <li> OSPF
 <li> BGP
-<li> VRRP
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://www.youtube.com/watch?v=EkNq4TrHP_U"> TCP/IP and Subnet Masking</a>
@@ -100,8 +110,9 @@ Author: Tomer Krausz Mallik
 <li><a href="https://www.juniper.net/documentation/us/en/software/junos/high-availability/topics/concept/vrrp-overview-ha.html"> VRRP </a>    
 <br></br>
 
-<h3>Network Layer - DHCP: </h3>
+<h2>Network Layer - DHCP: </h2>
 <b>Deliveries:</b>
+<h3>in depth</h3>
 <li> DHCP 
 <li> DHCP relay agent
 <br></br>
@@ -111,8 +122,9 @@ Author: Tomer Krausz Mallik
 <li> <a href="https://www.thegeekstuff.com/2013/03/dhcp-basics/"> What is DHCP and How DHCP Works </a>
 <br></br>
 
-<h3>Transport Layer:</h3>
+<h2>Transport Layer:</h2>
 <b>Deliveries:</b>
+<h3>in depth</h3>
 <li> NAT/PAT
 <li> NAT table
 <li> TCP & TCP handshake
@@ -137,6 +149,7 @@ Author: Tomer Krausz Mallik
 
 <h3>Application Layer: </h3>
 <b>Deliveries:</b>
+in depth
 <li> HTTP/S 
 <li> DNS
 <li> FTP
@@ -151,6 +164,7 @@ Author: Tomer Krausz Mallik
 
 <h3>Other: </h3>
 <b>Deliveries:</b>
+surface level
 <li> OpenFlow 
 <li> Overlay Networking
 <li> SDN
@@ -161,6 +175,7 @@ Author: Tomer Krausz Mallik
 
 <h3>VXLAN: </h3>
 <b>Deliveries:</b>
+in depth
 <li> VXLAN
 <li> VXLAN packet
 <li> VTEP
