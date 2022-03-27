@@ -147,9 +147,9 @@ Author: Tomer Krausz Mallik
 <li><a href="https://d1smxttentwwqu.cloudfront.net/wp-content/uploads/2015/07/SSLTLS_handshake.png"> TLS hanshake </a>  
 <br></br>
 
-<h3>Application Layer: </h3>
+<h2>Application Layer: </h2>
 <b>Deliveries:</b>
-in depth
+<h3>in depth</h3>
 <li> HTTP/S 
 <li> DNS
 <li> FTP
@@ -162,9 +162,9 @@ in depth
 <li> <a href="https://www.youtube.com/watch?v=J7uq7jCrYUg"> FTP vs TFTP </a>
 <br></br>
 
-<h3>Other: </h3>
+<h2>Other: </h2>
 <b>Deliveries:</b>
-surface level
+<h3>surface level</h3>
 <li> OpenFlow 
 <li> Overlay Networking
 <li> SDN
@@ -173,9 +173,9 @@ surface level
 <li> <a href="https://www.youtube.com/watch?v=2BJyIIIYU8E"> SDN </a>
 <br></br>
 
-<h3>VXLAN: </h3>
+<h2>VXLAN: </h2>
 <b>Deliveries:</b>
-in depth
+<h3>in depth</h3>
 <li> VXLAN
 <li> VXLAN packet
 <li> VTEP
