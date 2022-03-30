@@ -11,3 +11,7 @@ The training topics, in the order which they should be studied
 <li> Kubernetes
 <br></br>
 Estimated time: 5-6 months
+<br></br>
+
+<h2> Advanced Training</h2>
+<li> Cisco
