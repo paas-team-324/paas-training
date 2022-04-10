@@ -7,6 +7,8 @@ Author: Tomer Krausz Mallik
 
 <a href="https://kubernetes.io/docs/home/"><h3>Kubernetes Documentation</h3></a>
 
+<a href="https://www.youtube.com/watch?v=4ht22ReBjno"><h3>The Illustrated Children's Guide to Kubernetes</h3></a>
+
 <a href="https://docs.openshift.com/"><h3>OpenShift Documentation</h3></a>
 
 
