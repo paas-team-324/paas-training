@@ -57,6 +57,7 @@ Author: Tomer Krausz Mallik
 <li> Persistent volume
 <li> Persistent volume claim
 <li> volume reclaim policy
+<li> storage class
 <br></br>
 <b>Reading materials:</b>
 <li><a href="https://newrelic.com/blog/how-to-relic/kubernetes-health-checks"> health check</a>
@@ -141,6 +142,7 @@ Author: Tomer Krausz Mallik
 <li><a href="https://www.youtube.com/watch?v=8C_SCDbUJTg"> Kubernetes Architecture Simplified </a>
 <li><a href="https://kube.academy/courses/the-kubernetes-machine"> Kubernetes design </a>
 <li><a href="https://betterprogramming.pub/k8s-a-closer-look-at-kube-proxy-372c4e8b090"> Kube Proxy example </a>
+<li><a href="https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727"> Understanding kubernetes networking: pods </a>
 <br></br>
 
 <h3>Other:</h3>
