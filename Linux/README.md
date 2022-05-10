@@ -204,6 +204,7 @@ Author: Tomer Krausz Mallik
 <li> Type Enforcement
 <br></br>
 <b>Reading materials:</b>
+<li> <a href="https://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf"> SELINUX Coloring Book </a> 
 <li> <a href="https://sites.google.com/site/cacsolin/selinux"> SELINUX </a> 
 <li> <a href="https://wiki.centos.org/HowTos/SELinux"> SELINUX </a> 
 <li> <a href="http://www.differencebetween.net/technology/software-technology/difference-between-mac-and-dac/#:~:text=DAC%20provides%20users%20who%20have,including%20them%20in%20the%20list.&text=A%20good%20example%20of%20a,systems%20is%20a%20good%20example."> MAC VS DAC </a> 
