@@ -13,6 +13,9 @@ Author: Tomer Krausz Mallik
 
 
 <b>Reading materials:</b>
+<li><a href="https://docs.google.com/presentation/d/1xPU4LXz7UrK31b57L9OrQE2RbVGxxzJQ7tulXHApKm0/edit?usp=sharing"> Architecture Slideshow</a>
+<li><a href="https://docs.google.com/presentation/d/1-GmZmVOqahUwn44FXe4tWISzgbyyXlXqOS-hXsmCN2M/edit?usp=sharing"> Basic Concepts Slideshow</a>
+<li><a href="https://docs.google.com/presentation/d/1LEQgKdtsJqIz7YMn15VtU9Z5tppQBX_P9ooPYns2L_I/edit?usp=sharing"> Networking Slideshow</a>
 <li><a href="https://kubernetes.io/docs/concepts/_print/#pg-94ddc6e901c30f256138db11d09f05a3"> Kubernetes concepts</a>
 <br></br>
  
@@ -60,6 +63,7 @@ Author: Tomer Krausz Mallik
 <li> storage class
 <br></br>
 <b>Reading materials:</b>
+<li><a href="https://docs.google.com/presentation/d/1xIY2f__eUO96Lt5Au_zLusiJ_o-5RJLNFG5BXBGSr1M/edit?usp=sharing"> Storage Slideshow </a>
 <li><a href="https://newrelic.com/blog/how-to-relic/kubernetes-health-checks"> health check</a>
 <br></br>
 
@@ -76,7 +80,8 @@ Author: Tomer Krausz Mallik
 <li> authentication types
 <br></br>
 <b>Reading materials:</b>
-<li><a href="https://docs.openshift.com/container-platform/4.1/authentication/using-rbac.html"> RBAC</a>
+<li><a href="https://docs.google.com/presentation/d/1xPU4LXz7UrK31b57L9OrQE2RbVGxxzJQ7tulXHApKm0/edit?usp=sharing"> Security Slideshow</a>
+<li><a href="https://docs.openshift.com/container-platform/4.1/authentication/using-rbac.html"> RBAC </a>
 <li><a href="https://octopus.com/blog/k8s-rbac-roles-and-bindings"> roles and bindings </a>
 <li><a href="https://docs.openshift.com/container-platform/4.7/authentication/identity_providers/configuring-oidc-identity-provider.html"> Authentication</a>
 <br></br>
