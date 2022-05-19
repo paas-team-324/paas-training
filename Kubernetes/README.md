@@ -159,7 +159,11 @@ Author: Tomer Krausz Mallik
 <li> SCC
 <li> Helm chart
 <li> Horizontal pod autoscaller
-<br></br>  
+<br></br>
+<b>Reading materials:</b>
+<li><a href="https://docs.google.com/presentation/d/1IpMhxH_j47bM4KYR0Rjm1zp6NWH-tbA63zzyqAapDgI/edit?usp=sharing"> Machine Config Slideshow </a>
+<li><a href="https://docs.google.com/presentation/d/1_-WLiRennmS_jQ4pqeR6dF4qDRMGw4oMqRai4JRYvAA/edit?usp=sharing"> Bootstrap Slideshow </a>
+<br></br>
   
 <h3>Drills:</h3>
 <li> Openshift 3 installation
