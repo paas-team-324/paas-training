@@ -1,176 +1,183 @@
-<h1>Kubernetes</h1>
-<h4>Estimated time: 2 months
+# Kubernetes
+#### Estimated time: 2 months
+Author: Tomer Krausz Mallik<br/>
+
+### [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+### [The Illustrated Children's Guide to Kubernetes](https://www.youtube.com/watch?v=4ht22ReBjno)
+### [OpenShift Documentation](https://docs.openshift.com/)
+<br/>
+
+**Reading materials:**
+* [Architecture](Architecture.md)
+* [Basics - Utility tools & Openshift terminology](BasicConcepts.md)
+* [Networking](Networking.md)
+* [Learning Links](LearningLinks.md)
+* [Kubernetes concepts](https://kubernetes.io/docs/concepts/_print/#pg-94ddc6e901c30f256138db11d09f05a3)
+</br>
+ 
+### Basic Kubernetes: 
+**Deliveries:**
+* Pod
+* Deployment
+* Replicaset
+* Service
+* label
+* ingress
+* env variable
+* configmap
+* secret
 <br></br>
 
-Author: Tomer Krausz Mallik
+**Reading materials:**
+* [Service](https://www.youtube.com/watch?v=T4Z7visMM4E)
+* [Ingress](https://www.youtube.com/watch?v=GhZi4DxaxxE)
+* [Kubernetes NodePort vs LoadBalancer vs Ingress](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
+* [configmap](https://cloud.google.com/kubernetes-engine/docs/concepts/configmap)
+* [secret](https://cloud.google.com/kubernetes-engine/docs/concepts/secret)
 <br></br>
 
-<a href="https://kubernetes.io/docs/home/"><h3>Kubernetes Documentation</h3></a>
+### Resource Management:
+**Deliveries:**
+* request
+* limit
+* quota
+* limitrange
+<br></br>
 
-<a href="https://www.youtube.com/watch?v=4ht22ReBjno"><h3>The Illustrated Children's Guide to Kubernetes</h3></a>
-
-<a href="https://docs.openshift.com/"><h3>OpenShift Documentation</h3></a>
-
-
-<b>Reading materials:</b>
-<li><a href="https://docs.google.com/presentation/d/1xPU4LXz7UrK31b57L9OrQE2RbVGxxzJQ7tulXHApKm0/edit?usp=sharing"> Architecture Slideshow</a>
-<li><a href="https://docs.google.com/presentation/d/1-GmZmVOqahUwn44FXe4tWISzgbyyXlXqOS-hXsmCN2M/edit?usp=sharing"> Basic Concepts Slideshow</a>
-<li><a href="https://docs.google.com/presentation/d/1LEQgKdtsJqIz7YMn15VtU9Z5tppQBX_P9ooPYns2L_I/edit?usp=sharing"> Networking Slideshow</a>
-<li><a href="https://kubernetes.io/docs/concepts/_print/#pg-94ddc6e901c30f256138db11d09f05a3"> Kubernetes concepts</a>
+**Reading materials:**
+* [Resource requests and limits](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-resource-requests-and-limits)
 <br></br>
  
-<h3>Basic Kubernetes: </h3>
-<b>Deliveries:</b>
-<li> Pod
-<li> Deployment
-<li> Replicaset
-<li> Service
-<li> label
-<li> ingress
-<li> env variable
-<li> configmap
-<li> secret
-<br></br>
-<b>Reading materials:</b>
-<li> <a href="https://www.youtube.com/watch?v=T4Z7visMM4E"> Service </a>
-<li> <a href="https://www.youtube.com/watch?v=GhZi4DxaxxE"> Ingress </a>
-<li><a href="https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0"> Kubernetes NodePort vs LoadBalancer vs Ingress</a>
-<li><a href="https://cloud.google.com/kubernetes-engine/docs/concepts/configmap"> configmap</a>
-<li><a href="https://cloud.google.com/kubernetes-engine/docs/concepts/secret"> secret </a>
+### Advanced Kubernetes: 
+**Deliveries:**
+* Deployment startegy
+* liveness check
+* readiness check
+* Kubernetes Namespace
+* Network Policy
+* Persistent volume
+* Persistent volume claim
+* volume reclaim policy
+* storage class
 <br></br>
 
-<h3>Resource Management: </h3>
-<b>Deliveries:</b>
-<li> request
-<li> limit
-<li> quota
-<li> limitrange
-<br></br>
-<b>Reading materials:</b>
-<li><a href="https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-resource-requests-and-limits">Resource requests and limits </a>
-<br></br>
- 
-<h3>Advanced Kubernetes: </h3>
-<b>Deliveries:</b>
-<li> Deployment startegy
-<li> liveness check
-<li> readiness check
-<li> Kubernetes Namespace
-<li> Network Policy
-<li> Persistent volume
-<li> Persistent volume claim
-<li> volume reclaim policy
-<li> storage class
-<br></br>
-<b>Reading materials:</b>
-<li><a href="https://docs.google.com/presentation/d/1xIY2f__eUO96Lt5Au_zLusiJ_o-5RJLNFG5BXBGSr1M/edit?usp=sharing"> Storage Slideshow </a>
-<li><a href="https://newrelic.com/blog/how-to-relic/kubernetes-health-checks"> health check</a>
+**Reading materials:**
+* [Storage](Storage.md)
+* [health check](https://newrelic.com/blog/how-to-relic/kubernetes-health-checks)
 <br></br>
 
-<h3>Authorization: </h3>
-<b>Deliveries:</b>
-<li> RBAC
-<li> role
-<li> clusterrole
-<li> rolebinding
-<li> clusterrolebinding
-<li> users
-<li> groups
-<li> service account
-<li> authentication types
-<br></br>
-<b>Reading materials:</b>
-<li><a href="https://docs.google.com/presentation/d/1xPU4LXz7UrK31b57L9OrQE2RbVGxxzJQ7tulXHApKm0/edit?usp=sharing"> Security Slideshow</a>
-<li><a href="https://docs.openshift.com/container-platform/4.1/authentication/using-rbac.html"> RBAC </a>
-<li><a href="https://octopus.com/blog/k8s-rbac-roles-and-bindings"> roles and bindings </a>
-<li><a href="https://docs.openshift.com/container-platform/4.7/authentication/identity_providers/configuring-oidc-identity-provider.html"> Authentication</a>
+### Authorization:
+**Deliveries:**
+* RBAC
+* role
+* clusterrole
+* rolebinding
+* clusterrolebinding
+* users
+* groups
+* service account
+* authentication types
 <br></br>
 
-<h3>Other Kubernetes objects:</h3>
-<b>Deliveries:</b>
-<li> job
-<li> cronjob
-<li> concurrency policy
-<li> stateful set
-<li> volume claim template
-<li> headless service
-<li> daemon set
-<li> crd
+**Reading materials:**
+* [Security](Security.md)
+* [RBAC](https://docs.openshift.com/container-platform/4.1/authentication/using-rbac.html)
+* [roles and bindings](https://octopus.com/blog/k8s-rbac-roles-and-bindings)
+* [Authentication](https://docs.openshift.com/container-platform/4.7/authentication/identity_providers/configuring-oidc-identity-provider.html)
 <br></br>
-<b>Reading materials:</b>
-<li><a href="https://www.youtube.com/watch?v=pPQKAR1pA9U"> Stateful set vs deployment</a>
+
+### Other Kubernetes objects:
+**Deliveries:**
+* job
+* cronjob
+* concurrency policy
+* stateful set
+* volume claim template
+* headless service
+* daemon set
+* crd
+<br></br>
+
+**Reading materials:**
+* [Stateful set vs deployment](https://www.youtube.com/watch?v=pPQKAR1pA9U)
 
 <br></br>
-<h3>OpenShift objects: </h3>
-<b>Deliveries:</b>
-<li> DeploymentConfig
-<li> Replication Controller
-<li> Route
-<li> Router
-<li> Template
-<li> TemplateInstance
-<li> Service Catalog
-<li> default OpenShift service account
+### OpenShift objects:
+**Deliveries:**
+* DeploymentConfig
+* Replication Controller
+* Route
+* Router
+* Template
+* TemplateInstance
+* Service Catalog
+* default OpenShift service account
 <br></br>
-<b>Reading materials:</b>
-<li><a href="https://cloud.redhat.com/blog/kubernetes-ingress-vs-openshift-route"> ingress vs route </a>
+
+**Reading materials:**
+* [Ingress vs Route](https://cloud.redhat.com/blog/kubernetes-ingress-vs-openshift-route)
 <br></br>
 
 
-<h3>Selectors:</h3>
-<b>Deliveries:</b>
-<li> label selector
-<li> node selector
-<li> affinity
-<li> anti affinity
-<li> taints
-<li> tolerations
+### Selectors:
+**Deliveries:**
+* label selector
+* node selector
+* affinity
+* anti affinity
+* taints
+* tolerations
 <br></br>
   
-<h3>Infrastructure: </h3>
-<b>Deliveries:</b>
-<li> etcd
-<li> kube apiserver
-<li> kube controller manager
-<li> kube scheduler
-<li> kubelet
-<li> kube proxy
-<li> CRI
-<li> CSI
-<li> CNI
-<li> OpenShift SDN
-<li> SDN plugins
-<li> OVS
-<br></br>
-<b>Reading materials:</b>
-<li><a href="https://medium.com/jorgeacetozi/kubernetes-master-components-etcd-api-server-controller-manager-and-scheduler-3a0179fc8186"> Pod creation flow </a>
-<li><a href="https://www.youtube.com/watch?v=8C_SCDbUJTg"> Kubernetes Architecture Simplified </a>
-<li><a href="https://kube.academy/courses/the-kubernetes-machine"> Kubernetes design </a>
-<li><a href="https://betterprogramming.pub/k8s-a-closer-look-at-kube-proxy-372c4e8b090"> Kube Proxy example </a>
-<li><a href="https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727"> Understanding kubernetes networking: pods </a>
+### Infrastructure:
+**Deliveries:**
+* etcd
+* kube apiserver
+* kube controller manager
+* kube scheduler
+* kubelet
+* kube proxy
+* CRI
+* CSI
+* CNI
+* OpenShift SDN
+* SDN plugins
+* OVS
 <br></br>
 
-<h3>Other:</h3>
-<b>Deliveries:</b>
-<li> Operators
-<li> Prometheus
-<li> Exporters
-<li> Grafana
-<li> SCC
-<li> Helm chart
-<li> Horizontal pod autoscaller
+**Reading materials:**
+* [Pod creation flow](https://medium.com/jorgeacetozi/kubernetes-master-components-etcd-api-server-controller-manager-and-scheduler-3a0179fc8186)
+* [Kubernetes Architecture Simplified](https://www.youtube.com/watch?v=8C_SCDbUJTg)
+* [Kubernetes design](https://kube.academy/courses/the-kubernetes-machine)
+* [Kube Proxy example](https://betterprogramming.pub/k8s-a-closer-look-at-kube-proxy-372c4e8b090)
+* [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727)
 <br></br>
-<b>Reading materials:</b>
-<li><a href="https://docs.google.com/presentation/d/1IpMhxH_j47bM4KYR0Rjm1zp6NWH-tbA63zzyqAapDgI/edit?usp=sharing"> Machine Config Slideshow </a>
-<li><a href="https://docs.google.com/presentation/d/1_-WLiRennmS_jQ4pqeR6dF4qDRMGw4oMqRai4JRYvAA/edit?usp=sharing"> Bootstrap Slideshow </a>
+
+### Other:
+**Deliveries:**
+* Operators
+* Prometheus
+* Exporters
+* Grafana
+* SCC
+* Helm chart
+* Horizontal pod autoscaller
+<br></br>
+
+**Reading materials:**
+* [Machine Config](MachineConfig.md)
+* [Bootstrap](Bootstarp.md)
 <br></br>
   
-<h3>Drills:</h3>
-<li> Openshift 3 installation
-<li> Estimated time: 1 - 2 Weeks
+### Drills:
+* Openshift 3 installation
+* Estimated time: 1 - 2 Weeks
 <br></br>
-<li> Openshift 4 installation
-<li> Estimated time: 1 Week
+* Openshift 4 installation
+* Estimated time: 1 Week
 <br></br>
-<li> Test
-<li> Estimated time: Day
+* Test
+* Estimated time: Day
+</br>
+
+### [Workshops](Workshop.md)
