@@ -1,86 +1,86 @@
-<h1>Docker</h1>
-<h4>Estimated time: 3-4 Weeks
+# Docker
+#### Estimated time: 3-4 Weeks
 <br></br>
 
 Author: Tomer Krausz Mallik
 <br></br>
 
-<a href="https://docs.docker.com/"><h3>Docker Documentation</h3></a>
+<a href="https://docs.docker.com/">### Docker Documentation
 
-<b>Reading materials:</b>
-<li><a href="https://devopscube.com/what-is-docker/"> What is Docker</a>
-<li><a href="https://drive.google.com/file/d/161hbB-LOyXXn00LotaFuhd0jXafQnyUI/view"> The Docker Book</a>
+**Reading materials:**
+* [](https://devopscube.com/what-is-docker/"> What is Docker
+* [](https://drive.google.com/file/d/161hbB-LOyXXn00LotaFuhd0jXafQnyUI/view"> The Docker Book
 <br></br>
 
-<h3>Basic Docker: </h3>
-<b>Deliveries:</b>
-<li> image
-<li> image layers
-<li> container
-<li> Dockerfile
-<li> build
-<li> build context
-<li> docker compose
-<li> dockerd service
-<li> docker socket 
+### Basic Docker: 
+**Deliveries:**
+* image
+* image layers
+* container
+* Dockerfile
+* build
+* build context
+* docker compose
+* dockerd service
+* docker socket 
 <br></br>
-<b>Reading materials:</b>
-<li><a href="https://blogs.cisco.com/developer/container-image-layers-1?ccid=&dtid=devblog&oid=crippa-containerimage3-ww"> Container image</a>
-<li><a href="https://docs.docker.com/storage/storagedriver/#images-and-layers">Image Layers </a>
+**Reading materials:**
+* [](https://blogs.cisco.com/developer/container-image-layers-1?ccid=&dtid=devblog&oid=crippa-containerimage3-ww"> Container image
+* [](https://docs.docker.com/storage/storagedriver/#images-and-layers">Image Layers 
 <br></br>
 
-<h3>Registry: </h3>
-<b>Deliveries:</b>
-<li> registry
-<li> DockerHub
-<li> Harbor
-<li> docker pull
-<li> docker push
-<li> docker tag
+### Registry: 
+**Deliveries:**
+* registry
+* DockerHub
+* Harbor
+* docker pull
+* docker push
+* docker tag
 <br></br>
  
-<h3>Commands:</h3>
-<b>Deliveries:</b>
-<li> docker exec
-<li> docker commit
-<li> docker cp
-<li> docker load
-<li> docker save
-<li> docker stats
-<li> docker logs
+### Commands:
+**Deliveries:**
+* docker exec
+* docker commit
+* docker cp
+* docker load
+* docker save
+* docker stats
+* docker logs
 <br></br>
 
-<h3>Docker Resources: </h3>
-<b>Deliveries:</b>
-<li> Linux namespaces
-<li> cgroups
-<li> devicemapper
-<li> overlay2
-<li> Storage for Docker
-<li> resource allocation
-<li> Restricting process CPU
+### Docker Resources: 
+**Deliveries:**
+* Linux namespaces
+* cgroups
+* devicemapper
+* overlay2
+* Storage for Docker
+* resource allocation
+* Restricting process CPU
 <br></br>
-<b>Reading materials:</b>
-<li><a href="https://www.grant.pizza/blog/understanding-cgroups/"> cgroups </a>
-<li><a href="https://scoutapm.com/blog/restricting-process-cpu-usage-using-nice-cpulimit-and-cgroups"> restricting process cpu </a>
+**Reading materials:**
+* [](https://www.grant.pizza/blog/understanding-cgroups/"> cgroups 
+* [](https://scoutapm.com/blog/restricting-process-cpu-usage-using-nice-cpulimit-and-cgroups"> restricting process cpu 
 <br></br>
   
   
-<h3>Docker Network: </h3>
-<b>Deliveries:</b>
-<li> Linux bridge
-<li> VETH
-<li> linux namespace - Network
+### Docker Network: 
+**Deliveries:**
+* Linux bridge
+* VETH
+* linux namespace - Network
 <br></br>
-<b>Reading materials:</b>
-<li><a href="https://www.youtube.com/watch?v=6v_BDHIgOY8"> Networking </a>
-<li><a href="https://docs.docker.com/config/containers/container-networking/"> container Networking </a>  
-<li><a href="https://morioh.com/p/07e61c20c234"> container communication </a>  
+**Reading materials:**
+* [](https://www.youtube.com/watch?v=6v_BDHIgOY8"> Networking 
+* [](https://docs.docker.com/config/containers/container-networking/"> container Networking   
+* [](https://morioh.com/p/07e61c20c234"> container communication   
 
 
-<h3>Drills:</h3>
-<li> Lab
-<li> Estimated time: Week
+### Drills:
+* Lab
+* Estimated time: Week
 <br></br>
-<li> Test
-<li> Estimated time: Day
+* Test
+* Estimated time: Day
