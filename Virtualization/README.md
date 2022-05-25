@@ -1,18 +1,17 @@
-<h1>Virtualization</h1>
-<h4>Estimated time: 1 Day
-<br></br>
-
+# Virtualization
+#### Estimated time: 1 Day
 Author: Tomer Krausz Mallik
 
-<h3>Virtualization:</h3>
-<b>Deliveries:</b>
-<li> dvSwitch
-<li> vSphere
-<li> vCenter
-<li> vMotion
+### Virtualization:
+**Deliveries:**
+* dvSwitch
+* vSphere
+* vCenter
+* vMotion
 <br></br>
-<b>Reading materials:</b>
-<li> <a href="https://www.vmware.com/pdf/vi_architecture_wp.pdf"> VMware architecture </a> 
+
+**Reading materials:**
+* [VMware architecture ](https://www.vmware.com/pdf/vi_architecture_wp.pdf)
 <br></br>
 
 שיחה עם עמית/חונך
