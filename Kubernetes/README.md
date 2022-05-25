@@ -143,6 +143,8 @@ Author: Tomer Krausz Mallik<br/>
 * OpenShift SDN
 * SDN plugins
 * OVS
+* https://access.redhat.com/documentation/en-us/openshift_container_platform/4.5/html/networking/network-policy
+* https://github.com/openshift/openshift-docs/pull/19474/files
 <br></br>
 
 **Reading materials:**
