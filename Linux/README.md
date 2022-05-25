@@ -1,4 +1,4 @@
-<h1>Linux</h1>
+# Linux
 <h4>Estimated time: 6 Weeks
 <br></br>
 
@@ -10,243 +10,243 @@ Author: Tomer Krausz Mallik
 להזמין שרת לינוקס זמני ולא להתאמן על שרת/מחשב אמיתי - מניסיון (רן ב.)
 <br></br>
 
-<b>Reading materials:</b>
-<li> <a href="https://linuxjourney.com/"> Linux journey (recommended) </a> 
-<li> <a href="https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/"> Linux courses (Sections 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 17) </a> 
+** Reading materials:** 
+* [](https://linuxjourney.com/ Linux journey (recommended)  
+* [](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/ Linux courses (Sections 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 17)  
 <br></br>
 
-<h2>Operating System:</h2>
-<h3>in depth:</h3>
-<li> Kernel
-<li> Kernel space
-<li> User space
-<li> Virtual memory 
-<li> Pagefile
-<li> Swap
-<li> Init
-<li> System calls
-<li> interrupts
-<li> File descriptor
-<li> File descriptor table
-<li> stdin
-<li> stdout
-<li> stderr
-<li> pipeline
-<li> i/o redirection
-<li> Environment variables
-<li> boot the system
+## Operating System:
+### in depth:
+*  Kernel
+*  Kernel space
+*  User space
+*  Virtual memory 
+*  Pagefile
+*  Swap
+*  Init
+*  System calls
+*  interrupts
+*  File descriptor
+*  File descriptor table
+*  stdin
+*  stdout
+*  stderr
+*  pipeline
+*  i/o redirection
+*  Environment variables
+*  boot the system
   
-<h3>surface level:</h3>
-<li> Cpu dispacher
-<li> Non preemptive scheduling
-<li> preemptive scheduling
-<li> Schedualing algorithms (FCFS, SJF)
-<li> Context switching
-<li> /etc/sudoers - hands on
-<li> /etc/passwd - hands on
-<li> /etc/shadow - hands on
+### surface level:
+*  Cpu dispacher
+*  Non preemptive scheduling
+*  preemptive scheduling
+*  Schedualing algorithms (FCFS, SJF)
+*  Context switching
+*  /etc/sudoers - hands on
+*  /etc/passwd - hands on
+*  /etc/shadow - hands on
 
 <br></br>
-<b>Reading materials:</b>
-<li> <a href="https://www.ionos.com/digitalguide/server/know-how/what-are-system-calls/"> System calls </a> 
-<li> <a href="https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html"> What happens during system calls </a> 
-<li> <a href="http://www.linfo.org/context_switch.html"> Context switch </a> 
-<li> <a href="https://elinux.org/images/4/4c/Ott.pdf"> Virtual memory </a> 
-<li> <a href="https://www.bottomupcs.com/file_descriptors.xhtml"> File descriptors </a> 
-<li> <a href="https://www.guru99.com/cpu-scheduling-algorithms.html"> CPU scheduling algorithms</a> 
+** Reading materials:** 
+* [](https://www.ionos.com/digitalguide/server/know-how/what-are-system-calls/ System calls  
+* [](https://linux-kernel-labs.github.io/refs/heads/master/lectures/syscalls.html What happens during system calls  
+* [](http://www.linfo.org/context_switch.html Context switch  
+* [](https://elinux.org/images/4/4c/Ott.pdf Virtual memory  
+* [](https://www.bottomupcs.com/file_descriptors.xhtml File descriptors  
+* [](https://www.guru99.com/cpu-scheduling-algorithms.html CPU scheduling algorithms 
 <br></br>
   
-<h2>Commands:</h2>
-<b>Deliveries:</b>
-<li> sed
-<li> awk
-<li> grep
-<li> cut
-<li> cat
-<li> find
-<li> locate
-<li> vim
-<li> top
-<li> ps
+## Commands:
+** Deliveries:** 
+*  sed
+*  awk
+*  grep
+*  cut
+*  cat
+*  find
+*  locate
+*  vim
+*  top
+*  ps
 <br></br>
-<b>Reading materials:</b>
-<li> <a href="http://www.vimgenius.com/start"> Vim </a> 
+** Reading materials:** 
+* [](http://www.vimgenius.com/start Vim  
 <br></br>
 
-<h2>Procees Management:</h2>
-<h3>in depth</h3>
-<li> Process
-<li> Process states
-<li> Zombie process
-<li> signals
-<li> threads
-<li> Fork & exec
-<li> Copy on write
-<li> Shared memory
-<li> Inter process communications
-<li> systemd 
-<li> Service 
-<li> Systemctl
+## Procees Management:
+### in depth
+*  Process
+*  Process states
+*  Zombie process
+*  signals
+*  threads
+*  Fork & exec
+*  Copy on write
+*  Shared memory
+*  Inter process communications
+*  systemd 
+*  Service 
+*  Systemctl
   
-<h3>surface level</h3>  
-<li> Process permissions
-<li> Process priorities
-<li> OOM Killer
-<li> Service creation - hands on
-<li> daemon
+### surface level  
+*  Process permissions
+*  Process priorities
+*  OOM Killer
+*  Service creation - hands on
+*  daemon
 <br></br>
-<b>Reading materials:</b>
-<li> <a href="https://www.tutorialspoint.com/operating_system/os_processes.htm"> Process </a> 
-<li> <a href="https://linuxjourney.com/lesson/process-permissions"> Process Permissions </a> 
-<li> <a href="https://unix.stackexchange.com/questions/31118/why-is-the-default-process-creation-mechanism-fork"> fork and exec </a> 
-<li> <a href="https://www.youtube.com/watch?v=BU9m45WWqjM"> Inter process communications </a> 
-<li> <a href="https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/"> how to create a service </a> 
-<br></br>
-
-<h2>File System and Storage Management System:</h2>
-<h3>in depth</h3> 
-<li> /proc - hands on
-<li> binary permissions
-<li> inode
-<li> inode table
-<li> inode structure
-<li> metadata
-<li> soft link
-<li> hard link
-<li> LVM - hands on
-<li> Raid
-
-<h3>surface level</h3>
-<li> chown - hands on
-<li> file owner group
-<li> tmpfs
-<li> NAS
-<li> NFS - hands on
-<li> SAN
-<li> journaling
-<li> MBR
-<li> file systems - allocation schemes (XFS, NTFS, EXT, FAT)
-<li> VFS
-<li> Partition - hands on
-<li> mount - hands on
-<li> /etc/fstab - hands on
-<br></br>
-<b>Reading materials:</b>
-<li> <a href="https://www.thegeekdiary.com/understanding-the-proc-file-system/"> /proc </a> 
-<li> <a href="http://haifux.org/lectures/84-sil/users-processes-files-and-permissions/users-perms-lec.html"> permissions </a> 
-<li> <a href="https://docs.nersc.gov/filesystems/unix-file-permissions/"> file permissions </a> 
-<li> <a href="https://www.linux.com/training-tutorials/linux-filesystem-explained/"> linux filesystem </a>
-<li> <a href="https://www.howtogeek.com/465350/everything-you-ever-wanted-to-know-about-inodes-on-linux/"> inodes </a> 
-<li> <a href="https://docs.oracle.com/cd/E18752_01/html/817-5093/fscreate-99040.html"> creating tmpfs </a> 
-<li> <a href="https://docs.microsoft.com/en-us/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems"> FAT & NTFS </a> 
-<li> <a href="https://opensource.com/article/17/5/introduction-ext4-filesystem"> EXT4 </a> 
-<li> <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-xfs"> XFS </a>
-<li> <a href="https://www.thegeekdiary.com/how-to-create-an-xfs-filesystem/"> creating a filesystem </a> 
-<li> <a href="https://emmanuelbashorun.medium.com/linux-file-system-virtual-file-system-vfs-layer-part-3-79235c40a499"> VFS </a> 
-<li> <a href="https://medium.com/@meghamohan/hard-link-and-symbolic-link-3cad74e5b5dc#:~:text=Both%20the%20inodes%20and%20data,a%20disk%20partition%20is%20organized.&text=Symbolic%20link%20(Symlinks%2FSoft%20links,directory%20it%20is%20pointing%20to."> Hard & Soft links </a> 
-<li> <a href="https://opensource.com/business/16/9/linux-users-guide-lvm"> LVM </a> 
-<li> <a href="https://phoenixnap.com/kb/linux-create-partition"> create partitions </a> 
+** Reading materials:** 
+* [](https://www.tutorialspoint.com/operating_system/os_processes.htm Process  
+* [](https://linuxjourney.com/lesson/process-permissions Process Permissions  
+* [](https://unix.stackexchange.com/questions/31118/why-is-the-default-process-creation-mechanism-fork fork and exec  
+* [](https://www.youtube.com/watch?v=BU9m45WWqjM Inter process communications  
+* [](https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/ how to create a service  
 <br></br>
 
-<h2>Networking in Linux:</h2>
-<b>Deliveries:</b>
-<h3>in depth</h3>
-<li> NetworkManager
-<li> NetworkManager CLI -hands on
-<li> /etc/sysconfig/network-scripts/
-<li> tcpdump -hands on
-<li> netstat -hands on
-<li> /etc/resolv.conf
-<li> /etc/hosts
+## File System and Storage Management System:
+### in depth 
+*  /proc - hands on
+*  binary permissions
+*  inode
+*  inode table
+*  inode structure
+*  metadata
+*  soft link
+*  hard link
+*  LVM - hands on
+*  Raid
 
-<h3>surface level</h3>
-<li> /etc/sysconfig/network
-<li> <strong> iptables </strong>
+### surface level
+*  chown - hands on
+*  file owner group
+*  tmpfs
+*  NAS
+*  NFS - hands on
+*  SAN
+*  journaling
+*  MBR
+*  file systems - allocation schemes (XFS, NTFS, EXT, FAT)
+*  VFS
+*  Partition - hands on
+*  mount - hands on
+*  /etc/fstab - hands on
+<br></br>
+** Reading materials:** 
+* [](https://www.thegeekdiary.com/understanding-the-proc-file-system/ /proc  
+* [](http://haifux.org/lectures/84-sil/users-processes-files-and-permissions/users-perms-lec.html permissions  
+* [](https://docs.nersc.gov/filesystems/unix-file-permissions/ file permissions  
+* [](https://www.linux.com/training-tutorials/linux-filesystem-explained/ linux filesystem 
+* [](https://www.howtogeek.com/465350/everything-you-ever-wanted-to-know-about-inodes-on-linux/ inodes  
+* [](https://docs.oracle.com/cd/E18752_01/html/817-5093/fscreate-99040.html creating tmpfs  
+* [](https://docs.microsoft.com/en-us/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems FAT & NTFS  
+* [](https://opensource.com/article/17/5/introduction-ext4-filesystem EXT4  
+* [](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-xfs XFS 
+* [](https://www.thegeekdiary.com/how-to-create-an-xfs-filesystem/ creating a filesystem  
+* [](https://emmanuelbashorun.medium.com/linux-file-system-virtual-file-system-vfs-layer-part-3-79235c40a499 VFS  
+* [](https://medium.com/@meghamohan/hard-link-and-symbolic-link-3cad74e5b5dc#:~:text=Both%20the%20inodes%20and%20data,a%20disk%20partition%20is%20organized.&text=Symbolic%20link%20(Symlinks%2FSoft%20links,directory%20it%20is%20pointing%20to. Hard & Soft links  
+* [](https://opensource.com/business/16/9/linux-users-guide-lvm LVM  
+* [](https://phoenixnap.com/kb/linux-create-partition create partitions  
+<br></br>
+
+## Networking in Linux:
+** Deliveries:** 
+### in depth
+*  NetworkManager
+*  NetworkManager CLI -hands on
+*  /etc/sysconfig/network-scripts/
+*  tcpdump -hands on
+*  netstat -hands on
+*  /etc/resolv.conf
+*  /etc/hosts
+
+### surface level
+*  /etc/sysconfig/network
+*  <strong> iptables </strong>
 <ul>
-  <li> chains 
-  <li> hooks
-  <li> netfilter
-  <li> tables
-  <li> targets
+  *  chains 
+  *  hooks
+  *  netfilter
+  *  tables
+  *  targets
 </ul>
-<li> IPVS
-<li> ss - hands on
-<li> Route tables - hands on
-<li> sockets
-<li> unix sockets
-<li> /etc/nsswitch.conf
-<li> NTP
-<li> Chronyd
+*  IPVS
+*  ss - hands on
+*  Route tables - hands on
+*  sockets
+*  unix sockets
+*  /etc/nsswitch.conf
+*  NTP
+*  Chronyd
 <br></br>
-<b>Reading materials:</b>
-<li> <a href="https://www.thegeekdiary.com/linux-os-service-networkmanager/"> NetworkManger </a> 
-<li> <a href="https://www.golinuxcloud.com/nmcli-command-examples-cheatsheet-centos-rhel/"> NMCLI </a> 
-<li> <a href="https://docs.oracle.com/cd/E37670_01/E41138/html/ch10s02s04.html"> /etc/sysconfig/network </a>
-<li> <a href="https://docs.netapp.com/sgws-110/index.jsp?topic=%2Fcom.netapp.doc.sg-install-rhel%2FGUID-04DC1897-D5B4-4A43-BF6B-E8CB719BBA0D.html"> /etc/sysconfig/network-scripts/ </a> 
-<li> <a href="https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture"> iptables </a> 
-<li> <a href="https://www.booleanworld.com/depth-guide-iptables-linux-firewall/"> more iptables </a> 
-<li> <a href="https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/"> IPVS </a> 
-<li> <a href="https://cdn.comparitech.com/wp-content/uploads/2019/06/tcpdump-cheat-sheet.jpg"> tcpdump cheat sheet </a>
-<li> <a href="https://opensource.com/business/16/8/introduction-linux-network-routing"> routing </a> 
-<li> <a href="https://www.cloudsavvyit.com/1263/what-are-unix-sockets-and-how-do-they-work/"> unix sockets </a> 
-<li> <a href="https://www.thegeekdiary.com/understanding-etc-hosts-file-in-linux/"> /etc/hosts </a> 
-<li> <a href="http://linuxservertutorials.blogspot.com/2008/11/ubuntu-nsswitchconf-guide.html"> /etc/nsswitch.conf </a>
-<br></br>
-
-<h2>Permissions Management:</h2>
-<b>Deliveries:</b>
-<h3>in depth</h3>
-<li> Linux Permissions
-<li> SELINUX
-<li> MAC
-<li> DAC
-<li> RBAC
-<li> Type Enforcement
-<br></br>
-<b>Reading materials:</b>
-<li> <a href="https://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf"> SELINUX Coloring Book </a> 
-<li> <a href="https://sites.google.com/site/cacsolin/selinux"> SELINUX </a> 
-<li> <a href="https://wiki.centos.org/HowTos/SELinux"> SELINUX </a> 
-<li> <a href="http://www.differencebetween.net/technology/software-technology/difference-between-mac-and-dac/#:~:text=DAC%20provides%20users%20who%20have,including%20them%20in%20the%20list.&text=A%20good%20example%20of%20a,systems%20is%20a%20good%20example."> MAC VS DAC </a> 
-<li> <a href="https://auth0.com/docs/manage-users/access-control/rbac"> RBAC </a> 
+** Reading materials:** 
+* [](https://www.thegeekdiary.com/linux-os-service-networkmanager/ NetworkManger  
+* [](https://www.golinuxcloud.com/nmcli-command-examples-cheatsheet-centos-rhel/ NMCLI  
+* [](https://docs.oracle.com/cd/E37670_01/E41138/html/ch10s02s04.html /etc/sysconfig/network 
+* [](https://docs.netapp.com/sgws-110/index.jsp?topic=%2Fcom.netapp.doc.sg-install-rhel%2FGUID-04DC1897-D5B4-4A43-BF6B-E8CB719BBA0D.html /etc/sysconfig/network-scripts/  
+* [](https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture iptables  
+* [](https://www.booleanworld.com/depth-guide-iptables-linux-firewall/ more iptables  
+* [](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/ IPVS  
+* [](https://cdn.comparitech.com/wp-content/uploads/2019/06/tcpdump-cheat-sheet.jpg tcpdump cheat sheet 
+* [](https://opensource.com/business/16/8/introduction-linux-network-routing routing  
+* [](https://www.cloudsavvyit.com/1263/what-are-unix-sockets-and-how-do-they-work/ unix sockets  
+* [](https://www.thegeekdiary.com/understanding-etc-hosts-file-in-linux/ /etc/hosts  
+* [](http://linuxservertutorials.blogspot.com/2008/11/ubuntu-nsswitchconf-guide.html /etc/nsswitch.conf 
 <br></br>
 
-<h2>Secured Networking:</h2>
-<b>Deliveries:</b>
-<h3>in depth</h3>
-<li> SSH Keys
-<li> Certificates
-<li> OPENSSL - hands on
-<li> CSR
-<li> CA
+## Permissions Management:
+** Deliveries:** 
+### in depth
+*  Linux Permissions
+*  SELINUX
+*  MAC
+*  DAC
+*  RBAC
+*  Type Enforcement
 <br></br>
-<b>Reading materials:</b>
-<li> <a href="https://jumpcloud.com/blog/what-are-ssh-keys#:~:text=Essentially%2C%20SSH%20keys%20are%20an,to%20manage%20the%20remote%20system."> SSH Keys </a> 
-<br></br>
-
-<h2>Permissions Management:</h2>
-<b>Deliveries:</b>
-<h3>in depth</h3>
-<li> RPM
-<li> YUM
-<li> /etc/yum.repos.d/
-<li> Pxe boot
-
-<h3>surface level</h3>
-<li> Cron
-<li> Ansible - hands on
-<li> RPC
-<li> udev
-<br></br>
-<b>Reading materials:</b>
-<li> <a href="https://www.simplilearn.com/tutorials/ansible-tutorial/what-is-ansible?source=sl_frs_nav_playlist_video_clicked"> Ansible </a> 
-<li> <a href="https://www.learnlinux.tv/getting-started-with-ansible/"> Getting started with Ansible</a>
-<li> <a href="https://www.seobility.net/en/wiki/CronJob"> Cron </a> 
+** Reading materials:** 
+* [](https://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf SELINUX Coloring Book  
+* [](https://sites.google.com/site/cacsolin/selinux SELINUX  
+* [](https://wiki.centos.org/HowTos/SELinux SELINUX  
+* [](http://www.differencebetween.net/technology/software-technology/difference-between-mac-and-dac/#:~:text=DAC%20provides%20users%20who%20have,including%20them%20in%20the%20list.&text=A%20good%20example%20of%20a,systems%20is%20a%20good%20example. MAC VS DAC  
+* [](https://auth0.com/docs/manage-users/access-control/rbac RBAC  
 <br></br>
 
-<h3>Drills:</h3>
-<li> Lab
-<li> Estimated time: Day
+## Secured Networking:
+** Deliveries:** 
+### in depth
+*  SSH Keys
+*  Certificates
+*  OPENSSL - hands on
+*  CSR
+*  CA
 <br></br>
-<li> Test
-<li> Estimated time: Day
+** Reading materials:** 
+* [](https://jumpcloud.com/blog/what-are-ssh-keys#:~:text=Essentially%2C%20SSH%20keys%20are%20an,to%20manage%20the%20remote%20system. SSH Keys  
+<br></br>
+
+## Permissions Management:
+** Deliveries:** 
+### in depth
+*  RPM
+*  YUM
+*  /etc/yum.repos.d/
+*  Pxe boot
+
+### surface level
+*  Cron
+*  Ansible - hands on
+*  RPC
+*  udev
+<br></br>
+** Reading materials:** 
+* [](https://www.simplilearn.com/tutorials/ansible-tutorial/what-is-ansible?source=sl_frs_nav_playlist_video_clicked Ansible  
+* [](https://www.learnlinux.tv/getting-started-with-ansible/ Getting started with Ansible
+* [](https://www.seobility.net/en/wiki/CronJob Cron  
+<br></br>
+
+### Drills:
+*  Lab
+*  Estimated time: Day
+<br></br>
+*  Test
+*  Estimated time: Day
