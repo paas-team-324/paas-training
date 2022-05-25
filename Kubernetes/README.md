@@ -143,8 +143,6 @@ Author: Tomer Krausz Mallik<br/>
 * OpenShift SDN
 * SDN plugins
 * OVS
-* https://access.redhat.com/documentation/en-us/openshift_container_platform/4.5/html/networking/network-policy
-* https://github.com/openshift/openshift-docs/pull/19474/files
 <br></br>
 
 **Reading materials:**
@@ -153,6 +151,7 @@ Author: Tomer Krausz Mallik<br/>
 * [Kubernetes design](https://kube.academy/courses/the-kubernetes-machine)
 * [Kube Proxy example](https://betterprogramming.pub/k8s-a-closer-look-at-kube-proxy-372c4e8b090)
 * [Understanding kubernetes networking: pods](https://medium.com/google-cloud/understanding-kubernetes-networking-pods-7117dd28727)
+* [VNID 0](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.5/html/networking/network-policy)
 <br></br>
 
 ### Other:
