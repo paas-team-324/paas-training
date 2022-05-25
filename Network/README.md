@@ -1,15 +1,14 @@
 # Network
 #### Estimated time: 3-4 Weeks
-<br></br>
-
 Author: Tomer Krausz Mallik
 
 ### OSI model:
 **Deliveries:**
 * Basic knowledge of the OSI model and its layers
 <br></br>
+
 **Reading materials:**
-* [](https://www.howtonetwork.org/design/ccda/chapter-1-network-fundamentals/network-fundamentals-the-osi-model/ The OSI Model 
+* [The OSI Model](https://www.howtonetwork.org/design/ccda/chapter-1-network-fundamentals/network-fundamentals-the-osi-model/)
 <br></br>
 
 ## Physical layer:
@@ -22,9 +21,10 @@ Author: Tomer Krausz Mallik
 * Jumbo frames
 * fragmentation
 <br></br>
+
 **Reading materials:**
-* [](https://www.youtube.com/watch?v=6OWF-RoQAg4 Layer 1 Overview 
-* [](https://www.includehelp.com/computer-networks/functions-of-physical-layer-in-the-osi-model.aspx Functions of physical layer 
+* [Layer 1 Overview](https://www.youtube.com/watch?v=6OWF-RoQAg4)
+* [Functions of physical layer](https://www.includehelp.com/computer-networks/functions-of-physical-layer-in-the-osi-model.aspx)
 <br></br>
   
 ## Data Link Layer - MAC:
@@ -45,13 +45,14 @@ Author: Tomer Krausz Mallik
 * Switch stacking
 * MAC flap
 <br></br>
+
 **Reading materials:**
-* [](https://www.youtube.com/watch?v=pi7mMjiixiY Layer 2 Overview
-* [](https://www.youtube.com/watch?v=9yYqNqTNnqI Understanding swithcws
-* [](https://www.globalknowledge.com/us-en/resources/resource-library/articles/how-switches-work/ How switches work
-* [](https://study-ccna.com/what-is-a-network/ What is network 
-* [](https://networklessons.com/spanning-tree/introduction-to-spanning-tree STP 
-* [](https://www.youtube.com/watch?v=ck3gx9HB9-k&list=PLSNNzog5eydtmcbcbc1b8pVRkgre3vNUy Broadcast/Collision domain  
+* [Layer 2 Overview](https://www.youtube.com/watch?v=pi7mMjiixiY)
+* [Understanding swithcws](https://www.youtube.com/watch?v=9yYqNqTNnqI)
+* [How switches work](https://www.globalknowledge.com/us-en/resources/resource-library/articles/how-switches-work/)
+* [What is network ](https://study-ccna.com/what-is-a-network/)
+* [STP](https://networklessons.com/spanning-tree/introduction-to-spanning-tree)
+* [Broadcast/Collision domain](https://www.youtube.com/watch?v=ck3gx9HB9-k&list=PLSNNzog5eydtmcbcbc1b8pVRkgre3vNUy)
 <br></br>
 
 ## Data Link Layer - VLAN: 
@@ -61,11 +62,11 @@ Author: Tomer Krausz Mallik
 * Native VLAN
 * Trunk port
 * Access port
-
 <br></br>
+
 **Reading materials:**
-* [](https://www.practicalnetworking.net/stand-alone/vlans/ VLAN 
-* [](https://www.youtube.com/watch?v=vE5gvbmR8jg Tagging and Trunking 
+* [VLAN](https://www.practicalnetworking.net/stand-alone/vlans/)
+* [Tagging and Trunking](https://www.youtube.com/watch?v=vE5gvbmR8jg)
 <br></br>
 
 ## Data Link Layer - Bonding: 
@@ -76,9 +77,10 @@ Author: Tomer Krausz Mallik
 * LACP
 * Virtual Port Channel
 <br></br>
+
 **Reading materials:**
-* [](https://networkdirection.net/articles/virtual-port-channels-vpc/virtualportchannels/ Virtual Port Channel 
-* [](https://www.youtube.com/watch?v=EnqygxhgSoI LACP   
+* [Virtual Port Channel](https://networkdirection.net/articles/virtual-port-channels-vpc/virtualportchannels/)
+* [LACP](https://www.youtube.com/watch?v=EnqygxhgSoI)
 <br></br>
  
 ## Network Layer - Routing:
@@ -100,14 +102,15 @@ Author: Tomer Krausz Mallik
 * OSPF
 * BGP
 <br></br>
+
 **Reading materials:**
-* [](https://www.youtube.com/watch?v=EkNq4TrHP_U TCP/IP and Subnet Masking
-* [](https://study-ccna.com/types-of-ip-addresses/ Types of IP addresses
-* [](https://www.youtube.com/watch?v=U9arSNHLgsc Packet Transmission
-* [](https://www.ittsystems.com/access-control-list-acl/ ACL 
-* [](https://www.youtube.com/watch?v=Q1U9wVXRuHA CIDR 
-* [](https://www.practicalnetworking.net/series/arp/traditional-arp/ ARP   
-* [](https://www.juniper.net/documentation/us/en/software/junos/high-availability/topics/concept/vrrp-overview-ha.html VRRP     
+* [TCP/IP and Subnet Masking](https://www.youtube.com/watch?v=EkNq4TrHP_U)
+* [Types of IP addresses](https://study-ccna.com/types-of-ip-addresses/)
+* [Packet Transmission](https://www.youtube.com/watch?v=U9arSNHLgsc)
+* [ACL](https://www.ittsystems.com/access-control-list-acl/)
+* [CIDR](https://www.youtube.com/watch?v=Q1U9wVXRuHA)
+* [ARP](https://www.practicalnetworking.net/series/arp/traditional-arp/)
+* [VRRP](https://www.juniper.net/documentation/us/en/software/junos/high-availability/topics/concept/vrrp-overview-ha.html)
 <br></br>
 
 ## Network Layer - DHCP: 
@@ -116,10 +119,11 @@ Author: Tomer Krausz Mallik
 * DHCP 
 * DHCP relay agent
 <br></br>
+
 **Reading materials:**
-* [](https://www.netmanias.com/en/?m=view&id=techdocs&tag=77&no=5999 DHCP 
-* [](https://www.netmanias.com/en/post/techdocs/6000/dhcp-network-protocol/understanding-dhcp-relay-agents DHCP relay agent   
-* [](https://www.thegeekstuff.com/2013/03/dhcp-basics/ What is DHCP and How DHCP Works 
+* [DHCP](https://www.netmanias.com/en/?m=view&id=techdocs&tag=77&no=5999)
+* [DHCP relay agent](https://www.netmanias.com/en/post/techdocs/6000/dhcp-network-protocol/understanding-dhcp-relay-agents)
+* [What is DHCP and How DHCP Works](https://www.thegeekstuff.com/2013/03/dhcp-basics/)
 <br></br>
 
 ## Transport Layer:
@@ -137,14 +141,15 @@ Author: Tomer Krausz Mallik
 * Digital signatures
 * Messege digest
 <br></br>
+
 **Reading materials:**
-* [](https://www.netmanias.com/en/?m=view&id=techdocs&no=6061 NAT
-* [](https://www.practicalnetworking.net/series/nat/nat/ NAT
-* [](https://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/ TCP
-* [](https://www.imperva.com/learn/ddos/udp-user-datagram-protocol/ UDP
-* [](https://www.comparitech.com/blog/information-security/tls-encryption/ TLS 
-* [](https://www.youtube.com/watch?v=stsWa9A3sOM Digital Signatures and Digital Certificates 
-* [](https://d1smxttentwwqu.cloudfront.net/wp-content/uploads/2015/07/SSLTLS_handshake.png TLS hanshake   
+* [NAT](https://www.netmanias.com/en/?m=view&id=techdocs&no=6061)
+* [NAT](https://www.practicalnetworking.net/series/nat/nat/)
+* [TCP](https://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/)
+* [UDP](https://www.imperva.com/learn/ddos/udp-user-datagram-protocol/)
+* [TLS](https://www.comparitech.com/blog/information-security/tls-encryption/)
+* [Digital Signatures and Digital Certificates](https://www.youtube.com/watch?v=stsWa9A3sOM)
+* [TLS hanshake](https://d1smxttentwwqu.cloudfront.net/wp-content/uploads/2015/07/SSLTLS_handshake.png)
 <br></br>
 
 ## Application Layer: 
@@ -156,10 +161,11 @@ Author: Tomer Krausz Mallik
 * TFTP
 * SCP
 <br></br>
+
 **Reading materials:**
-* [](https://www.youtube.com/watch?v=72snZctFFtA DNS 
-* [](https://www.farsightsecurity.com/blog/txt-record/dnsrecords-20171201/ DNS Record Types   
-* [](https://www.youtube.com/watch?v=J7uq7jCrYUg FTP vs TFTP 
+* [DNS](https://www.youtube.com/watch?v=72snZctFFtA)
+* [DNS Record Types](https://www.farsightsecurity.com/blog/txt-record/dnsrecords-20171201/)
+* [FTP vs TFTP](https://www.youtube.com/watch?v=J7uq7jCrYUg)
 <br></br>
 
 ## Other: 
@@ -169,8 +175,9 @@ Author: Tomer Krausz Mallik
 * Overlay Networking
 * SDN
 <br></br>
+
 **Reading materials:**
-* [](https://www.youtube.com/watch?v=2BJyIIIYU8E SDN 
+* [SDN](https://www.youtube.com/watch?v=2BJyIIIYU8E)
 <br></br>
 
 ## VXLAN: 
@@ -181,9 +188,10 @@ Author: Tomer Krausz Mallik
 * VTEP
 * VNI
 <br></br>
+
 **Reading materials:**
-* [](https://medium.com/@NTTICT/vxlan-explained-930cc825a51 VXLAN explained 
-* [](https://www.youtube.com/watch?v=YNqKDI_bnPM&list=PLDQaRcbiSnqFe6pyaSy-Hwj8XRFPgZ5h8 VXLAN youtube series   
+* [VXLAN explained](https://medium.com/@NTTICT/vxlan-explained-930cc825a51)
+* [VXLAN youtube series](https://www.youtube.com/watch?v=YNqKDI_bnPM&list=PLDQaRcbiSnqFe6pyaSy-Hwj8XRFPgZ5h8)
 <br></br>
 
 ### צבי הנינג'ה:
