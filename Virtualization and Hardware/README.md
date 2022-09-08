@@ -1,4 +1,4 @@
-# Virtualization
+# Virtualization and Hardware
 #### Estimated time: 1 Day
 Author: Tomer Krausz Mallik
 
