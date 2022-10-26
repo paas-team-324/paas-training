@@ -1,0 +1,108 @@
+---
+apiVersion: v1
+items:
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+    labels:
+      app: hello-openshift
+      app.kubernetes.io/component: hello-openshift
+      app.kubernetes.io/instance: hello-openshift
+    name: hello-openshift
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        deployment: hello-openshift
+    template:
+      metadata:
+        labels:
+          deployment: hello-openshift
+      spec:
+        containers:
+        - image: registry.access.redhat.com/ubi8/httpd-24:latest #rootless 
+          name: hello-openshift
+          ports:
+          - containerPort: 8080
+            protocol: TCP
+          - containerPort: 8888
+            protocol: TCP
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: hello-openshift
+      app.kubernetes.io/component: hello-openshift
+      app.kubernetes.io/instance: hello-openshift
+    name: hello-openshift
+  spec:
+    ports:
+    - name: 8080-tcp
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+    - name: 8888-tcp
+      port: 8888
+      protocol: TCP
+      targetPort: 8888
+    selector:
+      deployment: hello-openshift
+  status:
+    loadBalancer: {}
+kind: List
+metadata: {}
+---
+apiVersion: v1
+items:
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    annotations:
+    labels:
+      app: hello-openshift2
+      app.kubernetes.io/component: hello-openshift2
+      app.kubernetes.io/instance: hello-openshift2
+    name: hello-openshift2
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        deployment: hello-openshift2
+    template:
+      metadata:
+        labels:
+          deployment: hello-openshift2
+      spec:
+        containers:
+        - image:  <SOME HTTP ROOTLESS HELLO OPENSHIFT APP IMAGE>
+          name: hello-openshift2
+          ports:
+          - containerPort: 8080
+            protocol: TCP
+          - containerPort: 8888
+            protocol: TCP
+- apiVersion: v1
+  kind: Service
+  metadata:
+    labels:
+      app: hello-openshift2
+      app.kubernetes.io/component: hello-openshift2
+      app.kubernetes.io/instance: hello-openshift2
+    name: hello-openshift2
+  spec:
+    ports:
+    - name: 8080-tcp
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+    - name: 8888-tcp
+      port: 8888
+      protocol: TCP
+      targetPort: 8888
+    selector:
+      deployment: hello-openshift2
+  status:
+    loadBalancer: {}
+kind: List
+metadata: {}
