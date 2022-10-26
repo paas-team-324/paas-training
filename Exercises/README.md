@@ -1,3 +1,4 @@
+# This part should be delivered be an instructor, followed by running the exercises in [exercises](./exercises)
 ### CLI - Prerequisits
 ```bash
 git clone <URL TO THIS REPO>
@@ -107,7 +108,6 @@ echo $URL
 curl $URL
 oc delete route my-route
 ```
-# RBAC Presentation!!!!!
 
 # MCP & MC
 #### Web UI
@@ -230,11 +230,8 @@ oc get pods -n openshift-logging -o wide
 
 ```
 ---
-# Do the [exercises](./exercises)
----
 
 #Operators - OLM (OperatorHub) & Helm
 ```bash
 oc get catalogsource,imagecontentsourcepolicy,packagemanifests -A
-helm list -A
 ```
