@@ -1,3 +1,14 @@
+# Intro
+This section of the training has two parts;
+1. Sit with your instructor and go over the commands & WebUI in the next section of this Readme
+
+> Note! The instructor should go over the commands with the trainee and make sure she/he understands the correlation between the different objects such as ServiceAccount, ServiceAccount-Token, Namespaces (UID,GID & SELinux, Imagestreams, RBAC & SCC, Services & Routes, MachineConfig & MachineConfigPool & Nodes
+
+2. Without instructor - run the exercises on a minishift lab - you should troubleshoot the differnet issues.
+> Note! The instructor should go over the solutions with the trainee and make sure she/he understands the issue and explain how it has been solved.
+
+---
+# Part 1
 ### CLI - Prerequisits
 ```bash
 git clone <URL TO THIS REPO>
@@ -230,11 +241,6 @@ oc get pods -n openshift-logging -o wide
 
 ```
 ---
-# Do the [exercises](./exercises)
+# Part 2 Do the exercises! 
+Start with Ex1
 ---
-
-#Operators - OLM (OperatorHub) & Helm
-```bash
-oc get catalogsource,imagecontentsourcepolicy,packagemanifests -A
-helm list -A
-```
