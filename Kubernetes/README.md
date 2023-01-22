@@ -22,6 +22,7 @@ Author: Tomer Krausz Mallik<br/>
 * Replicaset
 * Service
 * label
+* Annotations 
 * ingress
 * env variable
 * configmap
