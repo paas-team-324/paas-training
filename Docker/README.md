@@ -33,9 +33,10 @@ Author: Tomer Krausz Mallik
 * registry
 * DockerHub
 * Harbor
+* docker login
 * docker pull
-* docker push
 * docker tag
+* docker push
 <br></br>
  
 ### Commands:
@@ -47,13 +48,14 @@ Author: Tomer Krausz Mallik
 * docker save
 * docker stats
 * docker logs
+* docker inspect
 <br></br>
 
 ### Docker Resources: 
 **Deliveries:**
 * Linux namespaces
 * cgroups
-* devicemapper
+* devicemapper - להוריד?
 * overlay2
 * Storage for Docker
 * resource allocation
@@ -71,6 +73,7 @@ Author: Tomer Krausz Mallik
 * Linux bridge
 * VETH
 * linux namespace - Network
+* Docker iptables
 <br></br>
 
 **Reading materials:**
