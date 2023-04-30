@@ -111,7 +111,7 @@ Author: Tomer Krausz Mallik<br/>
 * Template
 * TemplateInstance
 * Service Catalog
-* default OpenShift service account
+* default OpenShift service accounts
 <br></br>
 
 **Reading materials:**
@@ -143,6 +143,7 @@ Author: Tomer Krausz Mallik<br/>
 * OpenShift SDN
 * SDN plugins
 * OVS
+* OVN
 <br></br>
 
 **Reading materials:**
