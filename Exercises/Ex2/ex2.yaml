@@ -1,0 +1,49 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: test
+    app.kubernetes.io/component: test
+    app.kubernetes.io/instance: test
+  name: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deployment: test
+  template:
+    metadata:
+      labels:
+        deployment: test
+    spec:
+      nodeName: lol
+      containers:
+      - image: 'registry.access.redhat.com/ubi8/httpd-24:latest'
+        name: test
+        ports:
+        - containerPort: 8080
+          protocol: TCP
+        - containerPort: 8888
+          protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: test
+    app.kubernetes.io/component: test
+    app.kubernetes.io/instance: test
+  name: test
+spec:
+  ports:
+  - name: 8080-tcp
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  - name: 8888-tcp
+    port: 8888
+    protocol: TCP
+    targetPort: 8888
+  selector:
+    deployment: tes
