@@ -51,6 +51,7 @@ Author: Tomer Krausz Mallik<br/>
 ### Advanced Kubernetes: 
 **Deliveries:**
 * Deployment startegy
+* Pod Distruption Budget
 * liveness check
 * readiness check
 * Kubernetes Namespace
@@ -73,6 +74,7 @@ Author: Tomer Krausz Mallik<br/>
 * clusterrole
 * rolebinding
 * clusterrolebinding
+* Security Context Constraint
 * users
 * groups
 * service account
@@ -161,9 +163,9 @@ Author: Tomer Krausz Mallik<br/>
 * Prometheus
 * Exporters
 * Grafana
-* SCC
 * Helm chart
 * Horizontal pod autoscaller
+* Machine config
 <br></br>
 
 **Reading materials:**
@@ -172,9 +174,6 @@ Author: Tomer Krausz Mallik<br/>
 <br></br>
   
 ### Drills:
-* Openshift 3 installation
-* Estimated time: 1 - 2 Weeks
-<br></br>
 * Openshift 4 installation
 * Estimated time: 1 Week
 <br></br>
