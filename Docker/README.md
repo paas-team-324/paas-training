@@ -55,7 +55,7 @@ Author: Tomer Krausz Mallik
 **Deliveries:**
 * Linux namespaces
 * cgroups
-* devicemapper - להוריד?
+* devicemapper
 * overlay2
 * Storage for Docker
 * resource allocation
