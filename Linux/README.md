@@ -20,7 +20,7 @@ Author: Tomer Krausz Mallik
 * Kernel
 * Kernel space
 * User space
-* Virtual memory 
+* Virtual memory
 * Pagefile
 * Swap
 * Init
@@ -35,12 +35,8 @@ Author: Tomer Krausz Mallik
 * i/o redirection
 * Environment variables
 * boot the system
-  
-### surface level:
-* Cpu dispacher
-* Non preemptive scheduling
-* preemptive scheduling
-* Schedualing algorithms (FCFS, SJF)
+* CPU dispacher
+* CPU Epoch Managment
 * Context switching
 * /etc/sudoers - hands on
 * /etc/passwd - hands on
@@ -68,16 +64,20 @@ Author: Tomer Krausz Mallik
 * vim
 * top
 * ps
+* cp
+* mv
 <br></br>
 **Reading materials:** 
 * [Vim](http://www.vimgenius.com/start)
 <br></br>
 
 ## Procees Management:
-### in depth
 * Process
 * Process states
 * Zombie process
+* Process permissions
+* Process priorities
+* OOM Killer
 * signals
 * threads
 * Fork & exec
@@ -87,11 +87,6 @@ Author: Tomer Krausz Mallik
 * systemd 
 * Service 
 * Systemctl
-  
-### surface level  
-* Process permissions
-* Process priorities
-* OOM Killer
 * Service creation - hands on
 * daemon
 <br></br>
@@ -104,9 +99,10 @@ Author: Tomer Krausz Mallik
 <br></br>
 
 ## File System and Storage Management System:
-### in depth 
-* /proc - hands on
 * binary permissions
+* file owner group
+* chown - hands on
+* chmod - hands on
 * inode
 * inode table
 * inode structure
@@ -115,21 +111,21 @@ Author: Tomer Krausz Mallik
 * hard link
 * LVM - hands on
 * Raid
-
-### surface level
-* chown - hands on
-* file owner group
 * tmpfs
 * NAS
 * NFS - hands on
 * SAN
 * journaling
-* MBR
-* file systems - allocation schemes (XFS, NTFS, EXT, FAT)
+* file systems - allocation schemes (XFS, EXT)
+* S3
 * VFS
+* /proc - hands on
 * Partition - hands on
 * mount - hands on
 * /etc/fstab - hands on
+* df - hands on
+* du - hands on
+* fdisk - hands on 
 <br></br>
 **Reading materials:** 
 * [/proc](https://www.thegeekdiary.com/understanding-the-proc-file-system/)
@@ -150,16 +146,16 @@ Author: Tomer Krausz Mallik
 
 ## Networking in Linux:
 **Deliveries:** 
-### in depth
 * NetworkManager
-* NetworkManager CLI -hands on
+* nmcli (NetworkManager CLI) - hands on
+* ethtool - hands on
 * /etc/sysconfig/network-scripts/
+* /etc/sysconfig/network-scripts/ifcfg content
 * tcpdump -hands on
 * netstat -hands on
+* ss - hands on
 * /etc/resolv.conf
 * /etc/hosts
-
-### surface level
 * /etc/sysconfig/network
 * iptables
 > * chains 
@@ -168,7 +164,6 @@ Author: Tomer Krausz Mallik
 > * tables
 > * targets
 * IPVS
-* ss - hands on
 * Route tables - hands on
 * sockets
 * unix sockets
@@ -193,7 +188,6 @@ Author: Tomer Krausz Mallik
 
 ## Permissions Management:
 **Deliveries:** 
-### in depth
 * Linux Permissions
 * SELINUX
 * MAC
@@ -211,7 +205,6 @@ Author: Tomer Krausz Mallik
 
 ## Secured Networking:
 **Deliveries:** 
-### in depth
 *  SSH Keys
 *  Certificates
 *  OPENSSL - hands on
@@ -224,13 +217,10 @@ Author: Tomer Krausz Mallik
 
 ## Permissions Management:
 **Deliveries:** 
-### in depth
 * RPM
 * YUM
 * /etc/yum.repos.d/
 * Pxe boot
-
-### surface level
 * Cron
 * Ansible - hands on
 * RPC
