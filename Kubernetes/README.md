@@ -114,6 +114,7 @@ Author: Tomer Krausz Mallik<br/>
 * TemplateInstance
 * Service Catalog
 * default OpenShift service accounts
+* Project template
 <br></br>
 
 **Reading materials:**
@@ -157,6 +158,18 @@ Author: Tomer Krausz Mallik<br/>
 * [VNID 0](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.5/html/networking/network-policy)
 <br></br>
 
+### Node Configuration:
+**Deliveries**
+* Kubelet.conf
+* Kubelet Config
+* Resource reservation
+* Machine config
+* Machine config pool
+
+**Reading materials:**
+* [Machine Config](MachineConfig.md)
+<br></br>
+
 ### Other:
 **Deliveries:**
 * Operators
@@ -165,11 +178,9 @@ Author: Tomer Krausz Mallik<br/>
 * Grafana
 * Helm chart
 * Horizontal pod autoscaller
-* Machine config
 <br></br>
 
 **Reading materials:**
-* [Machine Config](MachineConfig.md)
 * [Bootstrap](Bootstarp.md)
 <br></br>
   
