@@ -147,6 +147,7 @@ Author: Tomer Krausz Mallik<br/>
 * SDN plugins
 * OVS
 * OVN
+* OVN-Kubernetes
 <br></br>
 
 **Reading materials:**
@@ -178,6 +179,7 @@ Author: Tomer Krausz Mallik<br/>
 * Grafana
 * Helm chart
 * Horizontal pod autoscaller
+* Metallb
 <br></br>
 
 **Reading materials:**
