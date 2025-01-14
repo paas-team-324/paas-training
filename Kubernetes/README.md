@@ -143,11 +143,11 @@ Author: Tomer Krausz Mallik<br/>
 * CRI
 * CSI
 * CNI
+* OVN-Kubernetes
 * OpenShift SDN
 * SDN plugins
 * OVS
 * OVN
-* OVN-Kubernetes
 <br></br>
 
 **Reading materials:**
