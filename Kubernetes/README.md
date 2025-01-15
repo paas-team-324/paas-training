@@ -54,6 +54,7 @@ Author: Tomer Krausz Mallik<br/>
 * Pod Distruption Budget
 * liveness check
 * readiness check
+* Horizontal pod autoscaller
 * Kubernetes Namespace
 * Network Policy
 * Persistent volume
@@ -177,9 +178,12 @@ Author: Tomer Krausz Mallik<br/>
 * Prometheus
 * Exporters
 * Grafana
+* Git
+* GitOps
+* ArgoCd
 * Helm chart
-* Horizontal pod autoscaller
 * Metallb
+  
 <br></br>
 
 **Reading materials:**
