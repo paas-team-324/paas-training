@@ -19,6 +19,7 @@ Author: Tomer Krausz Mallik<br/>
 **Deliveries:**
 * Pod
 * Deployment
+* Deployment startegy
 * Replicaset
 * Service
 * label
@@ -50,7 +51,6 @@ Author: Tomer Krausz Mallik<br/>
  
 ### Advanced Kubernetes: 
 **Deliveries:**
-* Deployment startegy
 * Pod Distruption Budget
 * liveness check
 * readiness check
