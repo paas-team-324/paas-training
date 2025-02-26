@@ -15,29 +15,28 @@ Author: Tomer Krausz Mallik
 * [Linux courses (Sections 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 17)](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/)
 <br></br>
 
-## Operating System:
-### in depth:
+## System Basics:
+* Boot Process
+* Init
 * Kernel
-* Kernel space
-* User space
-* Virtual memory
+* Kernel Space
+* User Space
+* System calls
+* Interrupts
+* Virtual Memory
 * Pagefile
 * Swap
-* Init
-* System calls
-* interrupts
-* File descriptor
-* File descriptor table
+* CPU Dispacher
+* CPU Epoch Managment
+* Context Switching
+* File Descriptor
+* File Descriptor Table
 * stdin
 * stdout
 * stderr
 * pipeline
-* i/o redirection
-* Environment variables
-* boot the system
-* CPU dispacher
-* CPU Epoch Managment
-* Context switching
+* I/O Redirection
+* Environment Variables
 * /etc/sudoers - hands on
 * /etc/passwd - hands on
 * /etc/shadow - hands on
@@ -109,15 +108,16 @@ Author: Tomer Krausz Mallik
 * metadata
 * soft link
 * hard link
-* LVM - hands on
-* Raid
-* tmpfs
+* journaling
+* Forms of data storage (File, Block, Object)
 * NAS
 * NFS - hands on
 * SAN
-* journaling
 * file systems - allocation schemes (XFS, EXT)
 * S3
+* LVM - hands on
+* Raid
+* tmpfs
 * VFS
 * /proc - hands on
 * Partition - hands on
