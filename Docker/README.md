@@ -18,9 +18,11 @@ Author: Tomer Krausz Mallik
 * Dockerfile
 * build
 * build context
-* docker compose
+* docker compose????
 * dockerd service
-* docker socket 
+* docker socket
+* Open Container Initiative????
+* runC
 <br></br>
 
 **Reading materials:**
@@ -32,7 +34,6 @@ Author: Tomer Krausz Mallik
 **Deliveries:**
 * registry
 * DockerHub
-* Harbor
 * docker login
 * docker pull
 * docker tag
