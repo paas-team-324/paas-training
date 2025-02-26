@@ -149,25 +149,25 @@ Author: Tomer Krausz Mallik
 * NetworkManager
 * nmcli (NetworkManager CLI) - hands on
 * ethtool - hands on
+* /etc/sysconfig/network
 * /etc/sysconfig/network-scripts/
 * /etc/sysconfig/network-scripts/ifcfg content
-* tcpdump -hands on
-* netstat -hands on
+* Route tables - hands on
+* tcpdump - hands on
+* conntrack - hands on
+* netstat - hands on
 * ss - hands on
 * /etc/resolv.conf
 * /etc/hosts
-* /etc/sysconfig/network
+* /etc/nsswitch.conf
 * iptables
 > * chains 
 > * hooks
 > * netfilter
 > * tables
 > * targets
-* IPVS
-* Route tables - hands on
 * sockets
 * unix sockets
-* /etc/nsswitch.conf
 * NTP
 * Chronyd
 <br></br>
@@ -215,7 +215,7 @@ Author: Tomer Krausz Mallik
 * [SSH Keys](https://jumpcloud.com/blog/what-are-ssh-keys#:~:text=Essentially%2C%20SSH%20keys%20are%20an,to%20manage%20the%20remote%20system.)
 <br></br>
 
-## Permissions Management:
+## Others:
 **Deliveries:** 
 * RPM
 * YUM
