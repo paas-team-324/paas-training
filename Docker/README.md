@@ -18,10 +18,9 @@ Author: Tomer Krausz Mallik
 * Dockerfile
 * build
 * build context
-* docker compose????
 * dockerd service
 * docker socket
-* Open Container Initiative????
+* Open Container Initiative
 * runC
 <br></br>
 
