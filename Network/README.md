@@ -13,7 +13,6 @@ Author: Tomer Krausz Mallik
 
 ## Physical layer:
 **Deliveries:**
-### surface level
 * Latency
 * Bandwidth
 * Encapsulation
@@ -29,7 +28,7 @@ Author: Tomer Krausz Mallik
   
 ## Data Link Layer - MAC:
 **Deliveries:**
-### in depth
+* LAN
 * Ethernet frame
 * Switch
 * Hub
@@ -38,8 +37,6 @@ Author: Tomer Krausz Mallik
 * MAC address table
 * Collision domain
 * Broadcast domain
-
-### surface level
 * Bridge
 * STP
 * Switch stacking
@@ -57,7 +54,6 @@ Author: Tomer Krausz Mallik
 
 ## Data Link Layer - VLAN: 
 **Deliveries:**
-### in depth
 * VLAN 
 * Native VLAN
 * Trunk port
@@ -85,19 +81,17 @@ Author: Tomer Krausz Mallik
  
 ## Network Layer - Routing:
 **Deliveries:**
-### in depth
-* Router
-* Routing table
+* WAN
 * Subnet mask
 * CIDR
+* Router
+* Routing table
 * Static route
 * Default gateway
 * Firewall
 * ACL
 * ARP
 * VRRP
-
-### surface level
 * ICMP
 * OSPF
 * BGP
@@ -115,7 +109,6 @@ Author: Tomer Krausz Mallik
 
 ## Network Layer - DHCP: 
 **Deliveries:**
-### in depth
 * DHCP 
 * DHCP relay agent
 <br></br>
@@ -128,7 +121,6 @@ Author: Tomer Krausz Mallik
 
 ## Transport Layer:
 **Deliveries:**
-### in depth
 * NAT/PAT
 * NAT table
 * TCP & TCP handshake
@@ -140,6 +132,7 @@ Author: Tomer Krausz Mallik
 * Certificates
 * Digital signatures
 * Messege digest
+* SNI
 <br></br>
 
 **Reading materials:**
@@ -154,12 +147,13 @@ Author: Tomer Krausz Mallik
 
 ## Application Layer: 
 **Deliveries:**
-### in depth
 * HTTP/S 
 * DNS
 * FTP
 * TFTP
 * SCP
+* SSH
+* RPC
 <br></br>
 
 **Reading materials:**
@@ -170,7 +164,6 @@ Author: Tomer Krausz Mallik
 
 ## Other: 
 **Deliveries:**
-### surface level
 * OpenFlow 
 * Overlay Networking
 * SDN
@@ -182,7 +175,6 @@ Author: Tomer Krausz Mallik
 
 ## VXLAN: 
 **Deliveries:**
-### in depth
 * VXLAN
 * VXLAN packet
 * VTEP
