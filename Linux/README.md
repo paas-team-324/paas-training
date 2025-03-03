@@ -125,7 +125,8 @@ Author: Tomer Krausz Mallik
 * /etc/fstab - hands on
 * df - hands on
 * du - hands on
-* fdisk - hands on 
+* fdisk - hands on
+* iostat - hands on
 <br></br>
 **Reading materials:** 
 * [/proc](https://www.thegeekdiary.com/understanding-the-proc-file-system/)
@@ -149,12 +150,12 @@ Author: Tomer Krausz Mallik
 * NetworkManager
 * nmcli (NetworkManager CLI) - hands on
 * ethtool - hands on
+* dmesg - hands on
 * /etc/sysconfig/network
 * /etc/sysconfig/network-scripts/
 * /etc/sysconfig/network-scripts/ifcfg content
 * Route tables - hands on
 * tcpdump - hands on
-* conntrack - hands on
 * netstat - hands on
 * ss - hands on
 * /etc/resolv.conf
@@ -223,7 +224,6 @@ Author: Tomer Krausz Mallik
 * Pxe boot
 * Cron
 * Ansible - hands on
-* RPC
 * udev
 <br></br>
 **Reading materials:** 
