@@ -20,7 +20,6 @@ Author: Tomer Krausz Mallik
 * build context
 * dockerd service
 * docker socket
-* Open Container Initiative
 * runC
 <br></br>
 
