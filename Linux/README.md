@@ -26,6 +26,7 @@ Author: Tomer Krausz Mallik
 * Virtual Memory
 * Pagefile
 * Swap
+* CPU Scheduler
 * CPU Dispacher
 * CPU Epoch Managment
 * Context Switching
