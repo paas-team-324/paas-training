@@ -130,7 +130,6 @@ Author: Tomer Krausz Mallik
 * iostat - hands on
 <br></br>
 **Reading materials:** 
-* [/proc](https://www.thegeekdiary.com/understanding-the-proc-file-system/)
 * [permissions](http://haifux.org/lectures/84-sil/users-processes-files-and-permissions/users-perms-lec.html)
 * [file permissions](https://docs.nersc.gov/filesystems/unix-file-permissions/)
 * [linux filesystem](https://www.linux.com/training-tutorials/linux-filesystem-explained/)
@@ -139,7 +138,6 @@ Author: Tomer Krausz Mallik
 * [FAT & NTFS](https://docs.microsoft.com/en-us/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems)
 * [EXT4 ](https://opensource.com/article/17/5/introduction-ext4-filesystem)
 * [XFS](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-xfs)
-* [creating a filesystem](https://www.thegeekdiary.com/how-to-create-an-xfs-filesystem/)
 * [VFS](https://emmanuelbashorun.medium.com/linux-file-system-virtual-file-system-vfs-layer-part-3-79235c40a499)
 * [Hard & Soft links ](https://medium.com/@meghamohan/hard-link-and-symbolic-link-3cad74e5b5dc#:~:text=Both%20the%20inodes%20and%20data,a%20disk%20partition%20is%20organized.&text=Symbolic%20link%20(Symlinks%2FSoft%20links,directory%20it%20is%20pointing%20to))
 * [LVM](https://opensource.com/business/16/9/linux-users-guide-lvm)
@@ -183,7 +181,6 @@ Author: Tomer Krausz Mallik
 * [IPVS](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
 * [tcpdump cheat sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/tcpdump-cheat-sheet.jpg)
 * [routing](https://opensource.com/business/16/8/introduction-linux-network-routing)
-* [unix sockets](https://www.cloudsavvyit.com/1263/what-are-unix-sockets-and-how-do-they-work/)
 * [/etc/hosts](https://www.thegeekdiary.com/understanding-etc-hosts-file-in-linux/)
 * [/etc/nsswitch.conf](http://linuxservertutorials.blogspot.com/2008/11/ubuntu-nsswitchconf-guide.html)
 <br></br>
@@ -199,7 +196,6 @@ Author: Tomer Krausz Mallik
 <br></br>
 **Reading materials:** 
 * [SELINUX Coloring Book](https://people.redhat.com/duffy/selinux/selinux-coloring-book_A4-Stapled.pdf)
-* [SELINUX](https://sites.google.com/site/cacsolin/selinux)
 * [SELINUX](https://wiki.centos.org/HowTos/SELinux)
 * [MAC VS DAC](http://www.differencebetween.net/technology/software-technology/difference-between-mac-and-dac/#:~:text=DAC%20provides%20users%20who%20have,including%20them%20in%20the%20list.&text=A%20good%20example%20of%20a,systems%20is%20a%20good%20example.)
 * [RBAC](https://auth0.com/docs/manage-users/access-control/rbac)
