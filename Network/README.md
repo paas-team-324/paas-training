@@ -103,6 +103,7 @@ Author: Tomer Krausz Mallik
 * [Packet Transmission](https://www.youtube.com/watch?v=U9arSNHLgsc)
 * [ACL](https://www.ittsystems.com/access-control-list-acl/)
 * [CIDR](https://www.youtube.com/watch?v=Q1U9wVXRuHA)
+* [IP classes and classless](https://www.auvik.com/franklyit/blog/classful-classless-addressing/)
 * [ARP](https://www.practicalnetworking.net/series/arp/traditional-arp/)
 * [VRRP](https://www.juniper.net/documentation/us/en/software/junos/high-availability/topics/concept/vrrp-overview-ha.html)
 <br></br>
@@ -131,7 +132,7 @@ Author: Tomer Krausz Mallik
 * Symmetric/Asymmetric Encryption
 * Certificates
 * Digital signatures
-* Messege digest
+* Message digest
 * SNI
 <br></br>
 
@@ -142,6 +143,7 @@ Author: Tomer Krausz Mallik
 * [UDP](https://www.imperva.com/learn/ddos/udp-user-datagram-protocol/)
 * [TLS](https://www.comparitech.com/blog/information-security/tls-encryption/)
 * [Digital Signatures and Digital Certificates](https://www.youtube.com/watch?v=stsWa9A3sOM)
+* [Certificates](http://youtube.com/watch?v=kAaIYRJoJkc)
 * [TLS hanshake](https://d1smxttentwwqu.cloudfront.net/wp-content/uploads/2015/07/SSLTLS_handshake.png)
 <br></br>
 
